@@ -1,0 +1,54 @@
+{
+  "instance_id": "passive_quoting_BERAUSDT_1749059647",
+  "strategy": "passive_quoting",
+  "symbol": "BERA/USDT",
+  "exchanges": [
+    "binance_spot",
+    "binance_perp",
+    "bybit_spot",
+    "bybit_perp",
+    "hyperliquid_perp",
+    "mexc_spot",
+    "gateio_spot",
+    "bitget_spot"
+  ],
+  "config": {
+    "base_coin": "BERA",
+    "quantity_currency": "base",
+    "exchanges": [
+      "binance_spot",
+      "binance_perp",
+      "bybit_spot",
+      "bybit_perp",
+      "hyperliquid_perp",
+      "mexc_spot",
+      "gateio_spot",
+      "bitget_spot"
+    ],
+    "lines": [
+      {
+        "timeout": 3,
+        "drift": 5.0,
+        "quantity": 6.0,
+        "quantity_randomization_factor": 50.0,
+        "spread": 25.0,
+        "sides": "both"
+      }
+    ],
+    "exchange_symbols": {
+      "binance_spot": "BERA/USDT",
+      "binance_perp": "BERA/USDT",
+      "bybit_spot": "BERA/USDT",
+      "bybit_perp": "BERA/USDT",
+      "hyperliquid_perp": "BERA/USDT",
+      "mexc_spot": "BERA/USDT",
+      "gateio_spot": "BERA/USDT",
+      "bitget_spot": "BERA/USDT"
+    }
+  },
+  "status": "stopped",
+  "started_at": "2025-06-05T14:19:53.490355",
+  "last_heartbeat": "2025-06-05T14:23:16.701933",
+  "error_message": null,
+  "uptime_seconds": null
+}

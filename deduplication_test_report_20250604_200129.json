@@ -1,0 +1,224 @@
+{
+  "test_timestamp": "2025-06-04T20:01:29.281341",
+  "initial_state": {
+    "total_trades": 61,
+    "cross_exchange_duplicates": [
+      [
+        {
+          "id": 493,
+          "trade_id": "2270000000894329371",
+          "exchange_id": 4,
+          "symbol": "BERA/USDT",
+          "side": "sell",
+          "amount": 5.31,
+          "price": 2.442,
+          "cost": 12.96702,
+          "fee_cost": 0.01296702,
+          "fee_currency": "USDT",
+          "timestamp": 1749068161636,
+          "datetime": "2025-06-04T16:16:01.636000",
+          "order_id": null,
+          "created_at": "2025-06-04T23:35:51.858702"
+        },
+        {
+          "id": 491,
+          "trade_id": "2270000000894329371",
+          "exchange_id": 3,
+          "symbol": "BERA/USDT",
+          "side": "sell",
+          "amount": 5.31,
+          "price": 2.442,
+          "cost": 12.96702,
+          "fee_cost": 0.01296702,
+          "fee_currency": "USDT",
+          "timestamp": 1749068161636,
+          "datetime": "2025-06-04T16:16:01.636000",
+          "order_id": null,
+          "created_at": "2025-06-04T23:35:50.271641"
+        }
+      ],
+      [
+        {
+          "id": 490,
+          "trade_id": "2270000000894314267",
+          "exchange_id": 3,
+          "symbol": "BERA/USDT",
+          "side": "buy",
+          "amount": 4.65,
+          "price": 2.441,
+          "cost": 11.35065,
+          "fee_cost": 0.00465,
+          "fee_currency": "BERA",
+          "timestamp": 1749067681957,
+          "datetime": "2025-06-04T16:08:01.957000",
+          "order_id": null,
+          "created_at": "2025-06-04T23:35:50.270040"
+        },
+        {
+          "id": 492,
+          "trade_id": "2270000000894314267",
+          "exchange_id": 4,
+          "symbol": "BERA/USDT",
+          "side": "buy",
+          "amount": 4.65,
+          "price": 2.441,
+          "cost": 11.35065,
+          "fee_cost": 0.00465,
+          "fee_currency": "BERA",
+          "timestamp": 1749067681957,
+          "datetime": "2025-06-04T16:08:01.957000",
+          "order_id": null,
+          "created_at": "2025-06-04T23:35:51.853111"
+        }
+      ],
+      [
+        {
+          "id": 509,
+          "trade_id": "2270000000892015019",
+          "exchange_id": 3,
+          "symbol": "BERA/USDT",
+          "side": "buy",
+          "amount": 2.0,
+          "price": 2.586,
+          "cost": 5.172,
+          "fee_cost": 0.002,
+          "fee_currency": "BERA",
+          "timestamp": 1748984088585,
+          "datetime": "2025-06-03T16:54:48.585000",
+          "order_id": null,
+          "created_at": "2025-06-04T23:39:03.797391"
+        },
+        {
+          "id": 512,
+          "trade_id": "2270000000892015019",
+          "exchange_id": 4,
+          "symbol": "BERA/USDT",
+          "side": "buy",
+          "amount": 2.0,
+          "price": 2.586,
+          "cost": 5.172,
+          "fee_cost": 0.002,
+          "fee_currency": "BERA",
+          "timestamp": 1748984088585,
+          "datetime": "2025-06-03T16:54:48.585000",
+          "order_id": null,
+          "created_at": "2025-06-04T23:39:05.700001"
+        }
+      ],
+      [
+        {
+          "id": 508,
+          "trade_id": "2270000000891989184",
+          "exchange_id": 3,
+          "symbol": "BERA/USDT",
+          "side": "buy",
+          "amount": 2.0,
+          "price": 2.582,
+          "cost": 5.164,
+          "fee_cost": 0.002,
+          "fee_currency": "BERA",
+          "timestamp": 1748982976333,
+          "datetime": "2025-06-03T16:36:16.333000",
+          "order_id": null,
+          "created_at": "2025-06-04T23:39:03.795648"
+        },
+        {
+          "id": 511,
+          "trade_id": "2270000000891989184",
+          "exchange_id": 4,
+          "symbol": "BERA/USDT",
+          "side": "buy",
+          "amount": 2.0,
+          "price": 2.582,
+          "cost": 5.164,
+          "fee_cost": 0.002,
+          "fee_currency": "BERA",
+          "timestamp": 1748982976333,
+          "datetime": "2025-06-03T16:36:16.333000",
+          "order_id": null,
+          "created_at": "2025-06-04T23:39:05.698291"
+        }
+      ],
+      [
+        {
+          "id": 510,
+          "trade_id": "2270000000891949929",
+          "exchange_id": 4,
+          "symbol": "BERA/USDT",
+          "side": "sell",
+          "amount": 3.12,
+          "price": 2.609,
+          "cost": 8.14008,
+          "fee_cost": 0.00814008,
+          "fee_currency": "USDT",
+          "timestamp": 1748981581002,
+          "datetime": "2025-06-03T16:13:01.002000",
+          "order_id": null,
+          "created_at": "2025-06-04T23:39:05.696177"
+        },
+        {
+          "id": 507,
+          "trade_id": "2270000000891949929",
+          "exchange_id": 3,
+          "symbol": "BERA/USDT",
+          "side": "sell",
+          "amount": 3.12,
+          "price": 2.609,
+          "cost": 8.14008,
+          "fee_cost": 0.00814008,
+          "fee_currency": "USDT",
+          "timestamp": 1748981581002,
+          "datetime": "2025-06-03T16:13:01.002000",
+          "order_id": null,
+          "created_at": "2025-06-04T23:39:03.793390"
+        }
+      ]
+    ],
+    "identical_duplicates": [],
+    "same_tradeid_duplicates": [],
+    "timestamp": "2025-06-04T20:01:29.194851",
+    "total_duplicate_trades": 5,
+    "duplicate_percentage": 8.19672131147541
+  },
+  "removal_result": {
+    "removed": 5,
+    "kept": 56
+  },
+  "test_runs": [
+    {
+      "run_number": 1,
+      "total_trades": 58,
+      "duplicate_trades": 0,
+      "duplicate_percentage": 0.0
+    },
+    {
+      "run_number": 2,
+      "total_trades": 58,
+      "duplicate_trades": 0,
+      "duplicate_percentage": 0.0
+    },
+    {
+      "run_number": 3,
+      "total_trades": 58,
+      "duplicate_trades": 0,
+      "duplicate_percentage": 0.0
+    }
+  ],
+  "final_state": {
+    "total_trades": 58,
+    "cross_exchange_duplicates": [],
+    "identical_duplicates": [],
+    "same_tradeid_duplicates": [],
+    "timestamp": "2025-06-04T20:01:29.281272",
+    "total_duplicate_trades": 0,
+    "duplicate_percentage": 0.0
+  },
+  "test_passed": true,
+  "improvement": {
+    "trades_before": 61,
+    "trades_after": 58,
+    "duplicates_before": 5,
+    "duplicates_after": 0,
+    "percentage_improvement": 8.19672131147541
+  }
+}

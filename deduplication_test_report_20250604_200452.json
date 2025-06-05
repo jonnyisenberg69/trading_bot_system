@@ -1,0 +1,53 @@
+{
+  "test_timestamp": "2025-06-04T20:04:52.434623",
+  "initial_state": {
+    "total_trades": 60,
+    "cross_exchange_duplicates": [],
+    "identical_duplicates": [],
+    "same_tradeid_duplicates": [],
+    "timestamp": "2025-06-04T20:04:52.398443",
+    "total_duplicate_trades": 0,
+    "duplicate_percentage": 0.0
+  },
+  "removal_result": {
+    "removed": 0,
+    "kept": 60
+  },
+  "test_runs": [
+    {
+      "run_number": 1,
+      "total_trades": 60,
+      "duplicate_trades": 0,
+      "duplicate_percentage": 0.0
+    },
+    {
+      "run_number": 2,
+      "total_trades": 60,
+      "duplicate_trades": 0,
+      "duplicate_percentage": 0.0
+    },
+    {
+      "run_number": 3,
+      "total_trades": 62,
+      "duplicate_trades": 0,
+      "duplicate_percentage": 0.0
+    }
+  ],
+  "final_state": {
+    "total_trades": 62,
+    "cross_exchange_duplicates": [],
+    "identical_duplicates": [],
+    "same_tradeid_duplicates": [],
+    "timestamp": "2025-06-04T20:04:52.434585",
+    "total_duplicate_trades": 0,
+    "duplicate_percentage": 0.0
+  },
+  "test_passed": true,
+  "improvement": {
+    "trades_before": 60,
+    "trades_after": 62,
+    "duplicates_before": 0,
+    "duplicates_after": 0,
+    "percentage_improvement": 0.0
+  }
+}

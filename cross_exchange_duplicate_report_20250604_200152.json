@@ -1,0 +1,24 @@
+{
+  "timestamp": "2025-06-04T20:01:52.204635",
+  "total_trades_analyzed": 58,
+  "cross_exchange_duplicates": {
+    "groups_found": 0,
+    "total_duplicate_trades": 0,
+    "details": []
+  },
+  "identical_trade_duplicates": {
+    "groups_found": 0,
+    "total_duplicate_trades": 0,
+    "details": []
+  },
+  "impact_analysis": {
+    "total_potentially_duplicate_trades": 0,
+    "percentage_of_total": 0.0,
+    "recommended_actions": [
+      "Investigate why same trade_id appears on multiple exchanges",
+      "Review trade sync logic for cross-exchange contamination",
+      "Implement stricter deduplication checking trade_id globally",
+      "Consider which exchange should be the authoritative source for each trade"
+    ]
+  }
+}

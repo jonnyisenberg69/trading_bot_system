@@ -1,0 +1,50 @@
+{
+  "binance_spot_BERA/USDT": {
+    "exchange": "binance_spot",
+    "symbol": "BERA/USDT",
+    "is_perpetual": false,
+    "created": "2025-06-05T11:30:28.279929"
+  },
+  "bybit_spot_BERA/USDT": {
+    "exchange": "bybit_spot",
+    "symbol": "BERA/USDT",
+    "is_perpetual": false,
+    "created": "2025-06-05T11:30:28.280038"
+  },
+  "mexc_spot_BERA/USDT": {
+    "exchange": "mexc_spot",
+    "symbol": "BERA/USDT",
+    "is_perpetual": false,
+    "created": "2025-06-05T11:30:28.280101"
+  },
+  "gateio_spot_BERA/USDT": {
+    "exchange": "gateio_spot",
+    "symbol": "BERA/USDT",
+    "is_perpetual": false,
+    "created": "2025-06-05T11:30:28.280135"
+  },
+  "bitget_spot_BERA/USDT": {
+    "exchange": "bitget_spot",
+    "symbol": "BERA/USDT",
+    "is_perpetual": false,
+    "created": "2025-06-05T11:30:28.280163"
+  },
+  "binance_perp_BERA/USDT-PERP": {
+    "exchange": "binance_perp",
+    "symbol": "BERA/USDT-PERP",
+    "is_perpetual": true,
+    "created": "2025-06-05T11:30:28.280216"
+  },
+  "bybit_perp_BERA/USDT-PERP": {
+    "exchange": "bybit_perp",
+    "symbol": "BERA/USDT-PERP",
+    "is_perpetual": true,
+    "created": "2025-06-05T11:30:28.280270"
+  },
+  "hyperliquid_perp_BERA/USDT-PERP": {
+    "exchange": "hyperliquid_perp",
+    "symbol": "BERA/USDT-PERP",
+    "is_perpetual": true,
+    "created": "2025-06-05T11:30:28.280321"
+  }
+}

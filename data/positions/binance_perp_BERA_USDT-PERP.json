@@ -1,0 +1,17 @@
+{
+  "exchange": "binance_perp",
+  "symbol": "BERA/USDT-PERP",
+  "is_perpetual": true,
+  "p1": 87.9,
+  "p2": 0.0,
+  "p1_fee": 0.0,
+  "p2_fee": 0.0,
+  "avg_price": null,
+  "size": 87.9,
+  "value": 0.0,
+  "side": "long",
+  "is_open": true,
+  "last_update_time": "2025-06-05T08:41:15.210704",
+  "entry_time": "2025-06-05T08:41:15.210590",
+  "trade_count": 0
+}

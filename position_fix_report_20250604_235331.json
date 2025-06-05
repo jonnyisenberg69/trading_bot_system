@@ -1,0 +1,48 @@
+{
+  "timestamp": "2025-06-04T23:53:31.921528",
+  "total_positions": 9,
+  "open_positions": 2,
+  "symbols_tracked": 3,
+  "exchanges_with_positions": 8,
+  "net_positions": 2,
+  "connected_exchanges": 8,
+  "summary": {
+    "total_positions": 9,
+    "open_positions": 2,
+    "symbols": [
+      "BERA/USDT-PERP",
+      "POPCAT/USDT-PERP",
+      "BERA/USDT"
+    ],
+    "exchanges": [
+      "binance_spot",
+      "bybit_spot",
+      "mexc_spot",
+      "gateio_spot",
+      "bitget_spot",
+      "binance_perp",
+      "bybit_perp",
+      "hyperliquid_perp"
+    ],
+    "positions_by_exchange": {
+      "binance_spot": 1,
+      "bybit_spot": 1,
+      "mexc_spot": 1,
+      "gateio_spot": 1,
+      "bitget_spot": 1,
+      "binance_perp": 1,
+      "bybit_perp": 2,
+      "hyperliquid_perp": 1
+    },
+    "long_value": 0.0,
+    "short_value": 0.0,
+    "net_exposure": 0.0
+  },
+  "position_details": [
+    {
+      "symbol": "BERA/USDT-PERP",
+      "total_positions": 3,
+      "open_positions": 1,
+      "net_position": {
+        "symbol": "BERA/USDT-PERP",
+        "p1": 

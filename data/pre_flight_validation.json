@@ -1,0 +1,112 @@
+{
+  "validation_results": {
+    "binance_spot": {
+      "status": "issues_found",
+      "issues": [
+        "Test notional $2.58 below minimum $5.0"
+      ],
+      "suggestions": [
+        "Use minimum notional amount: 2.1330",
+        "Use at least $12 notional for Binance spot"
+      ],
+      "symbol": "BERA/USDT",
+      "test_amount": 1.0
+    },
+    "binance_perp": {
+      "status": "success",
+      "issues": [],
+      "suggestions": [],
+      "symbol": "BTC/USDT:USDT",
+      "test_amount": 0.001
+    },
+    "bybit_spot": {
+      "status": "issues_found",
+      "issues": [
+        "Test notional $2.58 below minimum $5.0"
+      ],
+      "suggestions": [
+        "Use minimum notional amount: 2.1322"
+      ],
+      "symbol": "BERA/USDT",
+      "test_amount": 1.0
+    },
+    "bybit_perp": {
+      "status": "success",
+      "issues": [],
+      "suggestions": [],
+      "symbol": "BTC/USDT:USDT",
+      "test_amount": 0.001
+    },
+    "mexc_spot": {
+      "status": "success",
+      "issues": [],
+      "suggestions": [
+        "MEXC uses quote amount for market buys"
+      ],
+      "symbol": "BERA/USDT",
+      "test_amount": 3.0
+    },
+    "gateio_spot": {
+      "status": "success",
+      "issues": [],
+      "suggestions": [
+        "Use at least $4 notional for Gate.io"
+      ],
+      "symbol": "BERA/USDT",
+      "test_amount": 2.0
+    },
+    "bitget_spot": {
+      "status": "success",
+      "issues": [],
+      "suggestions": [],
+      "symbol": "BERA/USDT",
+      "test_amount": 1.0
+    },
+    "hyperliquid_perp": {
+      "status": "success",
+      "issues": [],
+      "suggestions": [],
+      "symbol": "BTC/USDC:USDC",
+      "test_amount": 0.001
+    }
+  },
+  "recommended_config": {
+    "binance_spot": {
+      "symbol": "BERA/USDT",
+      "amount": 2.133
+    },
+    "binance_perp": {
+      "symbol": "BTC/USDT:USDT",
+      "amount": 0.001
+    },
+    "bybit_spot": {
+      "symbol": "BERA/USDT",
+      "amount": 2.1322
+    },
+    "bybit_perp": {
+      "symbol": "BTC/USDT:USDT",
+      "amount": 0.001
+    },
+    "mexc_spot": {
+      "symbol": "BERA/USDT",
+      "amount": 3.0
+    },
+    "gateio_spot": {
+      "symbol": "BERA/USDT",
+      "amount": 2.0
+    },
+    "bitget_spot": {
+      "symbol": "BERA/USDT",
+      "amount": 1.0
+    },
+    "hyperliquid_perp": {
+      "symbol": "BTC/USDC:USDC",
+      "amount": 0.001
+    }
+  },
+  "summary": {
+    "ready_exchanges": 6,
+    "total_exchanges": 8,
+    "total_issues": 2
+  }
+}

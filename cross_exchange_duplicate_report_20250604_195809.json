@@ -1,0 +1,296 @@
+{
+  "timestamp": "2025-06-04T19:58:09.577401",
+  "total_trades_analyzed": 61,
+  "cross_exchange_duplicates": {
+    "groups_found": 5,
+    "total_duplicate_trades": 10,
+    "details": [
+      {
+        "trade_id": "2270000000894329371",
+        "duplicate_count": 2,
+        "exchanges_involved": [
+          3,
+          4
+        ],
+        "trades": [
+          {
+            "database_id": 493,
+            "exchange_id": 4,
+            "symbol": "BERA/USDT",
+            "side": "sell",
+            "amount": 5.31,
+            "price": 2.442,
+            "timestamp": 1749068161636,
+            "datetime": "2025-06-04T16:16:01.636000"
+          },
+          {
+            "database_id": 491,
+            "exchange_id": 3,
+            "symbol": "BERA/USDT",
+            "side": "sell",
+            "amount": 5.31,
+            "price": 2.442,
+            "timestamp": 1749068161636,
+            "datetime": "2025-06-04T16:16:01.636000"
+          }
+        ]
+      },
+      {
+        "trade_id": "2270000000894314267",
+        "duplicate_count": 2,
+        "exchanges_involved": [
+          3,
+          4
+        ],
+        "trades": [
+          {
+            "database_id": 490,
+            "exchange_id": 3,
+            "symbol": "BERA/USDT",
+            "side": "buy",
+            "amount": 4.65,
+            "price": 2.441,
+            "timestamp": 1749067681957,
+            "datetime": "2025-06-04T16:08:01.957000"
+          },
+          {
+            "database_id": 492,
+            "exchange_id": 4,
+            "symbol": "BERA/USDT",
+            "side": "buy",
+            "amount": 4.65,
+            "price": 2.441,
+            "timestamp": 1749067681957,
+            "datetime": "2025-06-04T16:08:01.957000"
+          }
+        ]
+      },
+      {
+        "trade_id": "2270000000892015019",
+        "duplicate_count": 2,
+        "exchanges_involved": [
+          3,
+          4
+        ],
+        "trades": [
+          {
+            "database_id": 509,
+            "exchange_id": 3,
+            "symbol": "BERA/USDT",
+            "side": "buy",
+            "amount": 2.0,
+            "price": 2.586,
+            "timestamp": 1748984088585,
+            "datetime": "2025-06-03T16:54:48.585000"
+          },
+          {
+            "database_id": 512,
+            "exchange_id": 4,
+            "symbol": "BERA/USDT",
+            "side": "buy",
+            "amount": 2.0,
+            "price": 2.586,
+            "timestamp": 1748984088585,
+            "datetime": "2025-06-03T16:54:48.585000"
+          }
+        ]
+      },
+      {
+        "trade_id": "2270000000891989184",
+        "duplicate_count": 2,
+        "exchanges_involved": [
+          3,
+          4
+        ],
+        "trades": [
+          {
+            "database_id": 508,
+            "exchange_id": 3,
+            "symbol": "BERA/USDT",
+            "side": "buy",
+            "amount": 2.0,
+            "price": 2.582,
+            "timestamp": 1748982976333,
+            "datetime": "2025-06-03T16:36:16.333000"
+          },
+          {
+            "database_id": 511,
+            "exchange_id": 4,
+            "symbol": "BERA/USDT",
+            "side": "buy",
+            "amount": 2.0,
+            "price": 2.582,
+            "timestamp": 1748982976333,
+            "datetime": "2025-06-03T16:36:16.333000"
+          }
+        ]
+      },
+      {
+        "trade_id": "2270000000891949929",
+        "duplicate_count": 2,
+        "exchanges_involved": [
+          3,
+          4
+        ],
+        "trades": [
+          {
+            "database_id": 510,
+            "exchange_id": 4,
+            "symbol": "BERA/USDT",
+            "side": "sell",
+            "amount": 3.12,
+            "price": 2.609,
+            "timestamp": 1748981581002,
+            "datetime": "2025-06-03T16:13:01.002000"
+          },
+          {
+            "database_id": 507,
+            "exchange_id": 3,
+            "symbol": "BERA/USDT",
+            "side": "sell",
+            "amount": 3.12,
+            "price": 2.609,
+            "timestamp": 1748981581002,
+            "datetime": "2025-06-03T16:13:01.002000"
+          }
+        ]
+      }
+    ]
+  },
+  "identical_trade_duplicates": {
+    "groups_found": 5,
+    "total_duplicate_trades": 10,
+    "details": [
+      {
+        "duplicate_count": 2,
+        "key_characteristics": {
+          "symbol": "BERA/USDT",
+          "side": "sell",
+          "amount": 5.31,
+          "price": 2.442,
+          "timestamp": 1749068161636
+        },
+        "trades": [
+          {
+            "database_id": 493,
+            "trade_id": "2270000000894329371",
+            "exchange_id": 4,
+            "datetime": "2025-06-04T16:16:01.636000"
+          },
+          {
+            "database_id": 491,
+            "trade_id": "2270000000894329371",
+            "exchange_id": 3,
+            "datetime": "2025-06-04T16:16:01.636000"
+          }
+        ]
+      },
+      {
+        "duplicate_count": 2,
+        "key_characteristics": {
+          "symbol": "BERA/USDT",
+          "side": "buy",
+          "amount": 4.65,
+          "price": 2.441,
+          "timestamp": 1749067681957
+        },
+        "trades": [
+          {
+            "database_id": 490,
+            "trade_id": "2270000000894314267",
+            "exchange_id": 3,
+            "datetime": "2025-06-04T16:08:01.957000"
+          },
+          {
+            "database_id": 492,
+            "trade_id": "2270000000894314267",
+            "exchange_id": 4,
+            "datetime": "2025-06-04T16:08:01.957000"
+          }
+        ]
+      },
+      {
+        "duplicate_count": 2,
+        "key_characteristics": {
+          "symbol": "BERA/USDT",
+          "side": "buy",
+          "amount": 2.0,
+          "price": 2.586,
+          "timestamp": 1748984088585
+        },
+        "trades": [
+          {
+            "database_id": 509,
+            "trade_id": "2270000000892015019",
+            "exchange_id": 3,
+            "datetime": "2025-06-03T16:54:48.585000"
+          },
+          {
+            "database_id": 512,
+            "trade_id": "2270000000892015019",
+            "exchange_id": 4,
+            "datetime": "2025-06-03T16:54:48.585000"
+          }
+        ]
+      },
+      {
+        "duplicate_count": 2,
+        "key_characteristics": {
+          "symbol": "BERA/USDT",
+          "side": "buy",
+          "amount": 2.0,
+          "price": 2.582,
+          "timestamp": 1748982976333
+        },
+        "trades": [
+          {
+            "database_id": 508,
+            "trade_id": "2270000000891989184",
+            "exchange_id": 3,
+            "datetime": "2025-06-03T16:36:16.333000"
+          },
+          {
+            "database_id": 511,
+            "trade_id": "2270000000891989184",
+            "exchange_id": 4,
+            "datetime": "2025-06-03T16:36:16.333000"
+          }
+        ]
+      },
+      {
+        "duplicate_count": 2,
+        "key_characteristics": {
+          "symbol": "BERA/USDT",
+          "side": "sell",
+          "amount": 3.12,
+          "price": 2.609,
+          "timestamp": 1748981581002
+        },
+        "trades": [
+          {
+            "database_id": 510,
+            "trade_id": "2270000000891949929",
+            "exchange_id": 4,
+            "datetime": "2025-06-03T16:13:01.002000"
+          },
+          {
+            "database_id": 507,
+            "trade_id": "2270000000891949929",
+            "exchange_id": 3,
+            "datetime": "2025-06-03T16:13:01.002000"
+          }
+        ]
+      }
+    ]
+  },
+  "impact_analysis": {
+    "total_potentially_duplicate_trades": 20,
+    "percentage_of_total": 32.78688524590164,
+    "recommended_actions": [
+      "Investigate why same trade_id appears on multiple exchanges",
+      "Review trade sync logic for cross-exchange contamination",
+      "Implement stricter deduplication checking trade_id globally",
+      "Consider which exchange should be the authoritative source for each trade"
+    ]
+  }
+}

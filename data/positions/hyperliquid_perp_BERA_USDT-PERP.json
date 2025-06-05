@@ -1,0 +1,17 @@
+{
+  "exchange": "hyperliquid_perp",
+  "symbol": "BERA/USDT-PERP",
+  "is_perpetual": true,
+  "p1": 25.1,
+  "p2": 0.0,
+  "p1_fee": 0.0,
+  "p2_fee": 0.0,
+  "avg_price": null,
+  "size": 25.1,
+  "value": 0.0,
+  "side": "long",
+  "is_open": true,
+  "last_update_time": "2025-06-05T08:41:19.203762",
+  "entry_time": "2025-06-05T08:41:19.203746",
+  "trade_count": 0
+}
