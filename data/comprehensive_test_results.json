@@ -1,0 +1,1668 @@
+{
+  "binance_spot": {
+    "initial_state": {
+      "balance": {
+        "BTC": 9.85e-05,
+        "USDT": 63.96280214,
+        "BERA": 0.1156
+      },
+      "mid_price": 2.5885,
+      "trade_count": 0,
+      "position": null
+    },
+    "config": {
+      "symbol": "BERA/USDT",
+      "amount": 2.2,
+      "market_buy_requires_quote": false
+    },
+    "trade_execution": {
+      "status": "success",
+      "buy_order_id": "427804292",
+      "sell_order_id": "427804308",
+      "buy_price": 2.587,
+      "sell_price": 2.586,
+      "notional_value": 5.690300000000001,
+      "exchange_type": "spot"
+    },
+    "trade_fetch": {
+      "status": "success",
+      "total_fetched": 6,
+      "recent_trades": 6,
+      "attempts": 1,
+      "lookback_days": 7
+    },
+    "trade_matching": {
+      "status": "success",
+      "buy_found": true,
+      "sell_found": true,
+      "matched_count": 2
+    },
+    "matched_trades": [
+      [
+        "buy",
+        {
+          "id": "23642771",
+          "order_id": "427757465",
+          "symbol": "BERA/USDT",
+          "side": "buy",
+          "amount": "2.2",
+          "price": "2.585",
+          "cost": "5.687",
+          "fee": {
+            "currency": "BERA",
+            "cost": 0.0022
+          },
+          "timestamp": 1748969064394,
+          "datetime": "2025-06-03T16:44:24.394Z",
+          "exchange": "binance",
+          "raw": {
+            "info": {
+              "symbol": "BERAUSDT",
+              "id": "23642771",
+              "orderId": "427757465",
+              "orderListId": "-1",
+              "price": "2.58500000",
+              "qty": "2.20000000",
+              "quoteQty": "5.68700000",
+              "commission": "0.00220000",
+              "commissionAsset": "BERA",
+              "time": "1748969064394",
+              "isBuyer": true,
+              "isMaker": false,
+              "isBestMatch": true
+            },
+            "timestamp": 1748969064394,
+            "datetime": "2025-06-03T16:44:24.394Z",
+            "symbol": "BERA/USDT",
+            "id": "23642771",
+            "order": "427757465",
+            "type": null,
+            "side": "buy",
+            "takerOrMaker": "taker",
+            "price": 2.585,
+            "amount": 2.2,
+            "cost": 5.687,
+            "fee": {
+              "currency": "BERA",
+              "cost": 0.0022
+            },
+            "fees": [
+              {
+                "currency": "BERA",
+                "cost": 0.0022
+              }
+            ]
+          }
+        }
+      ],
+      [
+        "sell",
+        {
+          "id": "23643559",
+          "order_id": "427779879",
+          "symbol": "BERA/USDT",
+          "side": "sell",
+          "amount": "2.193",
+          "price": "2.577",
+          "cost": "5.651361",
+          "fee": {
+            "currency": "USDT",
+            "cost": 0.00565136
+          },
+          "timestamp": 1748970252440,
+          "datetime": "2025-06-03T17:04:12.440Z",
+          "exchange": "binance",
+          "raw": {
+            "info": {
+              "symbol": "BERAUSDT",
+              "id": "23643559",
+              "orderId": "427779879",
+              "orderListId": "-1",
+              "price": "2.57700000",
+              "qty": "2.19300000",
+              "quoteQty": "5.65136100",
+              "commission": "0.00565136",
+              "commissionAsset": "USDT",
+              "time": "1748970252440",
+              "isBuyer": false,
+              "isMaker": false,
+              "isBestMatch": true
+            },
+            "timestamp": 1748970252440,
+            "datetime": "2025-06-03T17:04:12.440Z",
+            "symbol": "BERA/USDT",
+            "id": "23643559",
+            "order": "427779879",
+            "type": null,
+            "side": "sell",
+            "takerOrMaker": "taker",
+            "price": 2.577,
+            "amount": 2.193,
+            "cost": 5.651361,
+            "fee": {
+              "currency": "USDT",
+              "cost": 0.00565136
+            },
+            "fees": [
+              {
+                "currency": "USDT",
+                "cost": 0.00565136
+              }
+            ]
+          }
+        }
+      ]
+    ],
+    "database_storage": {
+      "status": "success",
+      "stored_count": 6,
+      "error_count": 0,
+      "total_trades": 6
+    },
+    "database_validation": {
+      "trades_with_p1": 6,
+      "trades_with_p2": 6,
+      "trades_with_p1_fee": 3,
+      "trades_with_p2_fee": 3,
+      "trades_with_price": 6,
+      "trades_with_amount": 6,
+      "trades_with_cost": 6,
+      "total_trades": 6
+    },
+    "position_calculation": {
+      "status": "success",
+      "position": {
+        "exchange": "binance_spot",
+        "symbol": "BERA/USDT",
+        "is_perpetual": false,
+        "p1": 0.123,
+        "p2": -0.324389,
+        "p1_fee": 0.0066,
+        "p2_fee": 0.01672561,
+        "avg_price": 2.50132837398374,
+        "size": 0.123,
+        "value": 0.324389,
+        "side": "long",
+        "is_open": true,
+        "last_update_time": "2025-06-03T13:35:53.762369",
+        "entry_time": "2025-06-03T13:35:53.725758",
+        "trade_count": 6
+      },
+      "validation": {
+        "size_reasonable": true,
+        "fees_positive": true,
+        "price_positive": true,
+        "p1_p2_consistent": true,
+        "close_to_zero": true
+      }
+    }
+  },
+  "binance_perp": {
+    "initial_state": {
+      "balance": {
+        "USDT": 63.00698687
+      },
+      "mid_price": 105883.45,
+      "trade_count": 0,
+      "position": null
+    },
+    "config": {
+      "symbol": "BTC/USDT:USDT",
+      "amount": 0.001,
+      "market_buy_requires_quote": false
+    },
+    "trade_execution": {
+      "status": "success",
+      "buy_order_id": "697906357107",
+      "sell_order_id": "697906390983",
+      "buy_price": 105872.6,
+      "sell_price": 105868.2,
+      "notional_value": 105.87255,
+      "exchange_type": "perpetual"
+    },
+    "trade_fetch": {
+      "status": "success",
+      "total_fetched": 44,
+      "recent_trades": 44,
+      "attempts": 1,
+      "lookback_days": 7
+    },
+    "trade_matching": {
+      "status": "success",
+      "buy_found": true,
+      "sell_found": true,
+      "matched_count": 2
+    },
+    "matched_trades": [
+      [
+        "buy",
+        {
+          "id": "6366597537",
+          "order_id": "697713997038",
+          "symbol": "BTC/USDT:USDT",
+          "side": "buy",
+          "amount": "0.001",
+          "price": "105369.7",
+          "cost": "105.3697",
+          "fee": {
+            "currency": "USDT",
+            "cost": 0.04214788
+          },
+          "timestamp": 1748956679427,
+          "datetime": "2025-06-03T13:17:59.427Z",
+          "exchange": "binance",
+          "raw": {
+            "info": {
+              "symbol": "BTCUSDT",
+              "id": "6366597537",
+              "orderId": "697713997038",
+              "side": "BUY",
+              "price": "105369.70",
+              "qty": "0.001",
+              "realizedPnl": "0",
+              "quoteQty": "105.36970",
+              "commission": "0.04214788",
+              "commissionAsset": "USDT",
+              "time": "1748956679427",
+              "positionSide": "BOTH",
+              "maker": false,
+              "buyer": true
+            },
+            "timestamp": 1748956679427,
+            "datetime": "2025-06-03T13:17:59.427Z",
+            "symbol": "BTC/USDT:USDT",
+            "id": "6366597537",
+            "order": "697713997038",
+            "type": null,
+            "side": "buy",
+            "takerOrMaker": "taker",
+            "price": 105369.7,
+            "amount": 0.001,
+            "cost": 105.3697,
+            "fee": {
+              "currency": "USDT",
+              "cost": 0.04214788
+            },
+            "fees": [
+              {
+                "currency": "USDT",
+                "cost": 0.04214788
+              }
+            ]
+          }
+        }
+      ],
+      [
+        "sell",
+        {
+          "id": "6366597571",
+          "order_id": "697714014219",
+          "symbol": "BTC/USDT:USDT",
+          "side": "sell",
+          "amount": "0.001",
+          "price": "105369.6",
+          "cost": "105.3696",
+          "fee": {
+            "currency": "USDT",
+            "cost": 0.04214784
+          },
+          "timestamp": 1748956681875,
+          "datetime": "2025-06-03T13:18:01.875Z",
+          "exchange": "binance",
+          "raw": {
+            "info": {
+              "symbol": "BTCUSDT",
+              "id": "6366597571",
+              "orderId": "697714014219",
+              "side": "SELL",
+              "price": "105369.60",
+              "qty": "0.001",
+              "realizedPnl": "-0.00009999",
+              "quoteQty": "105.36960",
+              "commission": "0.04214784",
+              "commissionAsset": "USDT",
+              "time": "1748956681875",
+              "positionSide": "BOTH",
+              "maker": false,
+              "buyer": false
+            },
+            "timestamp": 1748956681875,
+            "datetime": "2025-06-03T13:18:01.875Z",
+            "symbol": "BTC/USDT:USDT",
+            "id": "6366597571",
+            "order": "697714014219",
+            "type": null,
+            "side": "sell",
+            "takerOrMaker": "taker",
+            "price": 105369.6,
+            "amount": 0.001,
+            "cost": 105.3696,
+            "fee": {
+              "currency": "USDT",
+              "cost": 0.04214784
+            },
+            "fees": [
+              {
+                "currency": "USDT",
+                "cost": 0.04214784
+              }
+            ]
+          }
+        }
+      ]
+    ],
+    "database_storage": {
+      "status": "success",
+      "stored_count": 44,
+      "error_count": 0,
+      "total_trades": 44
+    },
+    "database_validation": {
+      "trades_with_p1": 44,
+      "trades_with_p2": 44,
+      "trades_with_p1_fee": 0,
+      "trades_with_p2_fee": 44,
+      "trades_with_price": 44,
+      "trades_with_amount": 44,
+      "trades_with_cost": 44,
+      "total_trades": 44
+    },
+    "position_calculation": {
+      "status": "success",
+      "position": {
+        "exchange": "binance_perp",
+        "symbol": "BTC/USDT:USDT",
+        "is_perpetual": true,
+        "p1": 0.0,
+        "p2": 0.0508,
+        "p1_fee": 0.0,
+        "p2_fee": 1.86673624,
+        "avg_price": null,
+        "size": 0.0,
+        "value": -0.0508,
+        "side": null,
+        "is_open": false,
+        "last_update_time": "2025-06-03T13:35:53.777050",
+        "entry_time": "2025-06-03T13:35:53.763338",
+        "trade_count": 44
+      },
+      "validation": {
+        "size_reasonable": true,
+        "fees_positive": true,
+        "price_positive": true,
+        "p1_p2_consistent": true,
+        "close_to_zero": true
+      }
+    }
+  },
+  "bybit_spot": {
+    "initial_state": {
+      "balance": {
+        "BTC": 0.0001873,
+        "XRP": 3.76928,
+        "USDT": 129.86420788,
+        "BERA": 0.1202,
+        "SQR": 0.00837
+      },
+      "mid_price": 2.5885,
+      "trade_count": 0,
+      "position": null
+    },
+    "config": {
+      "symbol": "BERA/USDT",
+      "amount": 2.2,
+      "market_buy_requires_quote": false
+    },
+    "trade_execution": {
+      "status": "success",
+      "buy_order_id": "1964914821954798338",
+      "sell_order_id": "1964914855165297408",
+      "buy_price": null,
+      "sell_price": null,
+      "notional_value": 5.6947,
+      "exchange_type": "spot"
+    },
+    "trade_fetch": {
+      "status": "success",
+      "total_fetched": 11,
+      "recent_trades": 11,
+      "attempts": 1,
+      "lookback_days": 7
+    },
+    "trade_matching": {
+      "status": "success",
+      "buy_found": true,
+      "sell_found": true,
+      "matched_count": 2
+    },
+    "matched_trades": [
+      [
+        "buy",
+        {
+          "id": "2270000000891625557",
+          "order_id": "1964889459728319235",
+          "symbol": "BERA/USDT",
+          "side": "buy",
+          "amount": "2.2",
+          "price": "2.588",
+          "cost": "5.6936",
+          "fee": {
+            "currency": "BERA",
+            "cost": 0.0022,
+            "rate": 0.001
+          },
+          "timestamp": 1748969076541,
+          "datetime": "2025-06-03T16:44:36.541Z",
+          "exchange": "bybit",
+          "raw": {
+            "id": "2270000000891625557",
+            "info": {
+              "symbol": "BERAUSDT",
+              "orderType": "Market",
+              "underlyingPrice": "",
+              "orderLinkId": "1964889459728319236",
+              "orderId": "1964889459728319235",
+              "stopOrderType": "",
+              "execTime": "1748969076541",
+              "feeCurrency": "BERA",
+              "feeRate": "0.001",
+              "tradeIv": "",
+              "blockTradeId": "",
+              "markPrice": "",
+              "execPrice": "2.588",
+              "markIv": "",
+              "orderQty": "2.2",
+              "orderPrice": "2.844",
+              "execValue": "5.6936",
+              "closedSize": "",
+              "execType": "Trade",
+              "seq": "101505113205",
+              "side": "Buy",
+              "indexPrice": "",
+              "leavesQty": "0",
+              "isMaker": false,
+              "execFee": "0.0022",
+              "execId": "2270000000891625557",
+              "marketUnit": "baseCoin",
+              "execQty": "2.2",
+              "extraFees": ""
+            },
+            "timestamp": 1748969076541,
+            "datetime": "2025-06-03T16:44:36.541Z",
+            "symbol": "BERA/USDT",
+            "order": "1964889459728319235",
+            "type": "market",
+            "side": "buy",
+            "takerOrMaker": "taker",
+            "price": 2.588,
+            "amount": 2.2,
+            "cost": 5.6936,
+            "fee": {
+              "currency": "BERA",
+              "cost": 0.0022,
+              "rate": 0.001
+            },
+            "fees": [
+              {
+                "currency": "BERA",
+                "cost": 0.0022,
+                "rate": 0.001
+              }
+            ]
+          }
+        }
+      ],
+      [
+        "sell",
+        {
+          "id": "2270000000891705501",
+          "order_id": "1964909155324265216",
+          "symbol": "BERA/USDT",
+          "side": "sell",
+          "amount": "2.2",
+          "price": "2.6",
+          "cost": "5.72",
+          "fee": {
+            "currency": "USDT",
+            "cost": 0.00572,
+            "rate": 0.001
+          },
+          "timestamp": 1748971424438,
+          "datetime": "2025-06-03T17:23:44.438Z",
+          "exchange": "bybit",
+          "raw": {
+            "id": "2270000000891705501",
+            "info": {
+              "symbol": "BERAUSDT",
+              "orderType": "Market",
+              "underlyingPrice": "",
+              "orderLinkId": "1964909155324265217",
+              "orderId": "1964909155324265216",
+              "stopOrderType": "",
+              "execTime": "1748971424438",
+              "feeCurrency": "USDT",
+              "feeRate": "0.001",
+              "tradeIv": "",
+              "blockTradeId": "",
+              "markPrice": "",
+              "execPrice": "2.6",
+              "markIv": "",
+              "orderQty": "2.2",
+              "orderPrice": "2.34",
+              "execValue": "5.72",
+              "closedSize": "",
+              "execType": "Trade",
+              "seq": "101511557235",
+              "side": "Sell",
+              "indexPrice": "",
+              "leavesQty": "0",
+              "isMaker": false,
+              "execFee": "0.00572",
+              "execId": "2270000000891705501",
+              "marketUnit": "baseCoin",
+              "execQty": "2.2",
+              "extraFees": ""
+            },
+            "timestamp": 1748971424438,
+            "datetime": "2025-06-03T17:23:44.438Z",
+            "symbol": "BERA/USDT",
+            "order": "1964909155324265216",
+            "type": "market",
+            "side": "sell",
+            "takerOrMaker": "taker",
+            "price": 2.6,
+            "amount": 2.2,
+            "cost": 5.72,
+            "fee": {
+              "currency": "USDT",
+              "cost": 0.00572,
+              "rate": 0.001
+            },
+            "fees": [
+              {
+                "currency": "USDT",
+                "cost": 0.00572,
+                "rate": 0.001
+              }
+            ]
+          }
+        }
+      ]
+    ],
+    "database_storage": {
+      "status": "success",
+      "stored_count": 11,
+      "error_count": 0,
+      "total_trades": 11
+    },
+    "database_validation": {
+      "trades_with_p1": 11,
+      "trades_with_p2": 11,
+      "trades_with_p1_fee": 6,
+      "trades_with_p2_fee": 5,
+      "trades_with_price": 11,
+      "trades_with_amount": 11,
+      "trades_with_cost": 11,
+      "total_trades": 11
+    },
+    "position_calculation": {
+      "status": "success",
+      "position": {
+        "exchange": "bybit_spot",
+        "symbol": "BERA/USDT",
+        "is_perpetual": false,
+        "p1": 0.13,
+        "p2": -0.34465,
+        "p1_fee": 0.012,
+        "p2_fee": 0.03075735,
+        "avg_price": 2.414558846153846,
+        "size": 0.13,
+        "value": 0.34465,
+        "side": "long",
+        "is_open": true,
+        "last_update_time": "2025-06-03T13:35:53.780326",
+        "entry_time": "2025-06-03T13:35:53.777252",
+        "trade_count": 11
+      },
+      "validation": {
+        "size_reasonable": true,
+        "fees_positive": true,
+        "price_positive": true,
+        "p1_p2_consistent": true,
+        "close_to_zero": true
+      }
+    }
+  },
+  "bybit_perp": {
+    "initial_state": {
+      "balance": {
+        "BTC": 0.0001873,
+        "XRP": 3.76928,
+        "USDT": 129.86420788,
+        "BERA": 0.1202,
+        "SQR": 0.00837
+      },
+      "mid_price": 105869.55,
+      "trade_count": 0,
+      "position": null
+    },
+    "config": {
+      "symbol": "BTC/USDT:USDT",
+      "amount": 0.001,
+      "market_buy_requires_quote": false
+    },
+    "trade_execution": {
+      "status": "success",
+      "buy_order_id": "c0035616-1b83-4b82-836c-820ea4415e15",
+      "sell_order_id": "c6911a9c-4cc6-4e90-beec-c5b324ebe67b",
+      "buy_price": null,
+      "sell_price": null,
+      "notional_value": 105.85005000000001,
+      "exchange_type": "perpetual"
+    },
+    "trade_fetch": {
+      "status": "success",
+      "total_fetched": 20,
+      "recent_trades": 20,
+      "attempts": 1,
+      "lookback_days": 7
+    },
+    "trade_matching": {
+      "status": "success",
+      "buy_found": true,
+      "sell_found": true,
+      "matched_count": 2
+    },
+    "matched_trades": [
+      [
+        "buy",
+        {
+          "id": "00edc422-c1a5-568e-bc08-d95e67bce89d",
+          "order_id": "6fc92cb6-efed-4358-b329-16f9442dc2f4",
+          "symbol": "BTC/USDT:USDT",
+          "side": "buy",
+          "amount": "0.001",
+          "price": "106664.6",
+          "cost": "106.6646",
+          "fee": {
+            "currency": "USDT",
+            "cost": 0.05866553,
+            "rate": 0.00055
+          },
+          "timestamp": 1748964419082,
+          "datetime": "2025-06-03T15:26:59.082Z",
+          "exchange": "bybit",
+          "raw": {
+            "id": "00edc422-c1a5-568e-bc08-d95e67bce89d",
+            "info": {
+              "symbol": "BTCUSDT",
+              "orderType": "Market",
+              "underlyingPrice": "",
+              "orderLinkId": "",
+              "orderId": "6fc92cb6-efed-4358-b329-16f9442dc2f4",
+              "stopOrderType": "UNKNOWN",
+              "execTime": "1748964419082",
+              "feeCurrency": "",
+              "createType": "CreateByUser",
+              "feeRate": "0.00055",
+              "tradeIv": "",
+              "blockTradeId": "",
+              "markPrice": "106665.66",
+              "execPrice": "106664.6",
+              "markIv": "",
+              "orderQty": "0.001",
+              "orderPrice": "107732.3",
+              "execValue": "106.6646",
+              "closedSize": "0",
+              "execType": "Trade",
+              "seq": "408765694592",
+              "side": "Buy",
+              "indexPrice": "",
+              "leavesQty": "0",
+              "isMaker": false,
+              "execFee": "0.05866553",
+              "execId": "00edc422-c1a5-568e-bc08-d95e67bce89d",
+              "marketUnit": "",
+              "execQty": "0.001",
+              "extraFees": ""
+            },
+            "timestamp": 1748964419082,
+            "datetime": "2025-06-03T15:26:59.082Z",
+            "symbol": "BTC/USDT:USDT",
+            "order": "6fc92cb6-efed-4358-b329-16f9442dc2f4",
+            "type": "market",
+            "side": "buy",
+            "takerOrMaker": "taker",
+            "price": 106664.6,
+            "amount": 0.001,
+            "cost": 106.6646,
+            "fee": {
+              "currency": "USDT",
+              "cost": 0.05866553,
+              "rate": 0.00055
+            },
+            "fees": [
+              {
+                "currency": "USDT",
+                "cost": 0.05866553,
+                "rate": 0.00055
+              }
+            ]
+          }
+        }
+      ],
+      [
+        "sell",
+        {
+          "id": "6e52344f-cbf1-5ad4-8a77-341373657a5d",
+          "order_id": "2d149ba0-861f-4db5-a0e0-2cab465f732a",
+          "symbol": "BTC/USDT:USDT",
+          "side": "sell",
+          "amount": "0.001",
+          "price": "106664.5",
+          "cost": "106.6645",
+          "fee": {
+            "currency": "USDT",
+            "cost": 0.05866548,
+            "rate": 0.00055
+          },
+          "timestamp": 1748964422655,
+          "datetime": "2025-06-03T15:27:02.655Z",
+          "exchange": "bybit",
+          "raw": {
+            "id": "6e52344f-cbf1-5ad4-8a77-341373657a5d",
+            "info": {
+              "symbol": "BTCUSDT",
+              "orderType": "Market",
+              "underlyingPrice": "",
+              "orderLinkId": "",
+              "orderId": "2d149ba0-861f-4db5-a0e0-2cab465f732a",
+              "stopOrderType": "UNKNOWN",
+              "execTime": "1748964422655",
+              "feeCurrency": "",
+              "createType": "CreateByUser",
+              "feeRate": "0.00055",
+              "tradeIv": "",
+              "blockTradeId": "",
+              "markPrice": "106665.71",
+              "execPrice": "106664.5",
+              "markIv": "",
+              "orderQty": "0.001",
+              "orderPrice": "105599.1",
+              "execValue": "106.6645",
+              "closedSize": "0.001",
+              "execType": "Trade",
+              "seq": "408765723725",
+              "side": "Sell",
+              "indexPrice": "",
+              "leavesQty": "0",
+              "isMaker": false,
+              "execFee": "0.05866548",
+              "execId": "6e52344f-cbf1-5ad4-8a77-341373657a5d",
+              "marketUnit": "",
+              "execQty": "0.001",
+              "extraFees": ""
+            },
+            "timestamp": 1748964422655,
+            "datetime": "2025-06-03T15:27:02.655Z",
+            "symbol": "BTC/USDT:USDT",
+            "order": "2d149ba0-861f-4db5-a0e0-2cab465f732a",
+            "type": "market",
+            "side": "sell",
+            "takerOrMaker": "taker",
+            "price": 106664.5,
+            "amount": 0.001,
+            "cost": 106.6645,
+            "fee": {
+              "currency": "USDT",
+              "cost": 0.05866548,
+              "rate": 0.00055
+            },
+            "fees": [
+              {
+                "currency": "USDT",
+                "cost": 0.05866548,
+                "rate": 0.00055
+              }
+            ]
+          }
+        }
+      ]
+    ],
+    "database_storage": {
+      "status": "success",
+      "stored_count": 20,
+      "error_count": 0,
+      "total_trades": 20
+    },
+    "database_validation": {
+      "trades_with_p1": 20,
+      "trades_with_p2": 20,
+      "trades_with_p1_fee": 0,
+      "trades_with_p2_fee": 20,
+      "trades_with_price": 20,
+      "trades_with_amount": 20,
+      "trades_with_cost": 20,
+      "total_trades": 20
+    },
+    "position_calculation": {
+      "status": "success",
+      "position": {
+        "exchange": "bybit_perp",
+        "symbol": "BTC/USDT:USDT",
+        "is_perpetual": true,
+        "p1": 0.0,
+        "p2": 0.0052,
+        "p1_fee": 0.0,
+        "p2_fee": 1.16873378,
+        "avg_price": null,
+        "size": 0.0,
+        "value": -0.0052,
+        "side": null,
+        "is_open": false,
+        "last_update_time": "2025-06-03T13:35:53.784397",
+        "entry_time": "2025-06-03T13:35:53.780589",
+        "trade_count": 20
+      },
+      "validation": {
+        "size_reasonable": true,
+        "fees_positive": true,
+        "price_positive": true,
+        "p1_p2_consistent": true,
+        "close_to_zero": true
+      }
+    }
+  },
+  "mexc_spot": {
+    "initial_state": {
+      "balance": {
+        "USDT": 97.8477846425,
+        "BNB": 0.0015,
+        "BERA": 0.42
+      },
+      "mid_price": 2.5875,
+      "trade_count": 0,
+      "position": null
+    },
+    "config": {
+      "symbol": "BERA/USDT",
+      "amount": 3.0,
+      "market_buy_requires_quote": true
+    },
+    "trade_execution": {
+      "status": "success",
+      "buy_order_id": "C02__558638831394525185024",
+      "sell_order_id": "C02__558638850579267586024",
+      "buy_price": 2.717,
+      "sell_price": 2.457,
+      "notional_value": 7.762499999999999,
+      "exchange_type": "spot"
+    },
+    "trade_fetch": {
+      "status": "success",
+      "total_fetched": 14,
+      "recent_trades": 14,
+      "attempts": 1,
+      "lookback_days": 7
+    },
+    "trade_matching": {
+      "status": "partial",
+      "buy_found": false,
+      "sell_found": true,
+      "matched_count": 1
+    },
+    "matched_trades": [
+      [
+        "sell",
+        {
+          "id": "558636005184425984X1",
+          "order_id": "C02__558636005184425984024",
+          "symbol": "BERA/USDT",
+          "side": "sell",
+          "amount": "7.88",
+          "price": "2.598",
+          "cost": "20.47224",
+          "fee": {
+            "currency": "USDT",
+            "cost": 0.01023612
+          },
+          "timestamp": 1748971438000,
+          "datetime": "2025-06-03T17:23:58.000Z",
+          "exchange": "mexc",
+          "raw": {
+            "id": "558636005184425984X1",
+            "order": "C02__558636005184425984024",
+            "timestamp": 1748971438000,
+            "datetime": "2025-06-03T17:23:58.000Z",
+            "symbol": "BERA/USDT",
+            "type": null,
+            "side": "sell",
+            "takerOrMaker": "taker",
+            "price": 2.598,
+            "amount": 7.88,
+            "cost": 20.47224,
+            "fee": {
+              "currency": "USDT",
+              "cost": 0.01023612
+            },
+            "info": {
+              "symbol": "BERAUSDT",
+              "id": "558636005184425984X1",
+              "orderId": "C02__558636005184425984024",
+              "orderListId": "-1",
+              "price": "2.598",
+              "qty": "7.88",
+              "quoteQty": "20.47224",
+              "commission": "0.01023612",
+              "commissionAsset": "USDT",
+              "time": "1748971438000",
+              "isBuyer": false,
+              "isMaker": false,
+              "isBestMatch": true,
+              "isSelfTrade": false,
+              "clientOrderId": null
+            },
+            "fees": [
+              {
+                "currency": "USDT",
+                "cost": 0.01023612
+              }
+            ]
+          }
+        }
+      ]
+    ],
+    "database_storage": {
+      "status": "success",
+      "stored_count": 14,
+      "error_count": 0,
+      "total_trades": 14
+    },
+    "database_validation": {
+      "trades_with_p1": 14,
+      "trades_with_p2": 14,
+      "trades_with_p1_fee": 0,
+      "trades_with_p2_fee": 14,
+      "trades_with_price": 14,
+      "trades_with_amount": 14,
+      "trades_with_cost": 14,
+      "total_trades": 14
+    },
+    "position_calculation": {
+      "status": "success",
+      "position": {
+        "exchange": "mexc_spot",
+        "symbol": "BERA/USDT",
+        "is_perpetual": false,
+        "p1": 0.42,
+        "p2": -1.22757,
+        "p1_fee": 0.0,
+        "p2_fee": 0.128016865,
+        "avg_price": 2.617983654761905,
+        "size": 0.42,
+        "value": 1.22757,
+        "side": "long",
+        "is_open": true,
+        "last_update_time": "2025-06-03T13:35:53.787636",
+        "entry_time": "2025-06-03T13:35:53.784588",
+        "trade_count": 14
+      },
+      "validation": {
+        "size_reasonable": true,
+        "fees_positive": true,
+        "price_positive": true,
+        "p1_p2_consistent": true,
+        "close_to_zero": false
+      }
+    }
+  },
+  "gateio_spot": {
+    "initial_state": {
+      "balance": {
+        "BTC": 9.883e-05,
+        "USDT": 88.965650956,
+        "BERA": 0.112764
+      },
+      "mid_price": 2.5885,
+      "trade_count": 0,
+      "position": null
+    },
+    "config": {
+      "symbol": "BERA/USDT",
+      "amount": 2.0,
+      "market_buy_requires_quote": true
+    },
+    "trade_execution": {
+      "status": "success",
+      "buy_order_id": "853081584263",
+      "sell_order_id": "853081609152",
+      "buy_price": 2.589,
+      "sell_price": 2.588,
+      "notional_value": 5.177,
+      "exchange_type": "spot"
+    },
+    "trade_fetch": {
+      "status": "success",
+      "total_fetched": 10,
+      "recent_trades": 10,
+      "attempts": 1,
+      "lookback_days": 7
+    },
+    "trade_matching": {
+      "status": "success",
+      "buy_found": true,
+      "sell_found": true,
+      "matched_count": 2
+    },
+    "matched_trades": [
+      [
+        "buy",
+        {
+          "id": "14748170491",
+          "order_id": "853059296510",
+          "symbol": "BERA/USDT",
+          "side": "buy",
+          "amount": "2.01",
+          "price": "2.591",
+          "cost": "5.20791",
+          "fee": {
+            "currency": "BERA",
+            "cost": 0.001809
+          },
+          "timestamp": 1748969097374,
+          "datetime": "2025-06-03T16:44:57.374Z",
+          "exchange": "gateio",
+          "raw": {
+            "info": {
+              "id": "14748170491",
+              "create_time": "1748969097",
+              "create_time_ms": "1748969097374.513000",
+              "currency_pair": "BERA_USDT",
+              "side": "buy",
+              "role": "taker",
+              "amount": "2.01",
+              "price": "2.591",
+              "order_id": "853059296510",
+              "fee": "0.001809",
+              "fee_currency": "BERA",
+              "point_fee": "0",
+              "gt_fee": "0",
+              "amend_text": "-",
+              "sequence_id": "3693165",
+              "text": "apiv4"
+            },
+            "id": "14748170491",
+            "timestamp": 1748969097374,
+            "datetime": "2025-06-03T16:44:57.374Z",
+            "symbol": "BERA/USDT",
+            "order": "853059296510",
+            "type": null,
+            "side": "buy",
+            "takerOrMaker": "taker",
+            "price": 2.591,
+            "amount": 2.01,
+            "cost": 5.20791,
+            "fee": {
+              "currency": "BERA",
+              "cost": 0.001809
+            },
+            "fees": [
+              {
+                "currency": "BERA",
+                "cost": 0.001809
+              }
+            ]
+          }
+        }
+      ],
+      [
+        "sell",
+        {
+          "id": "14748390153",
+          "order_id": "853068797645",
+          "symbol": "BERA/USDT",
+          "side": "sell",
+          "amount": "2.01",
+          "price": "2.574",
+          "cost": "5.17374",
+          "fee": {
+            "currency": "USDT",
+            "cost": 0.004656366
+          },
+          "timestamp": 1748970284143,
+          "datetime": "2025-06-03T17:04:44.143Z",
+          "exchange": "gateio",
+          "raw": {
+            "info": {
+              "id": "14748390153",
+              "create_time": "1748970284",
+              "create_time_ms": "1748970284143.533000",
+              "currency_pair": "BERA_USDT",
+              "side": "sell",
+              "role": "taker",
+              "amount": "2.01",
+              "price": "2.574",
+              "order_id": "853068797645",
+              "fee": "0.004656366",
+              "fee_currency": "USDT",
+              "point_fee": "0",
+              "gt_fee": "0",
+              "amend_text": "-",
+              "sequence_id": "3693273",
+              "text": "apiv4"
+            },
+            "id": "14748390153",
+            "timestamp": 1748970284143,
+            "datetime": "2025-06-03T17:04:44.143Z",
+            "symbol": "BERA/USDT",
+            "order": "853068797645",
+            "type": null,
+            "side": "sell",
+            "takerOrMaker": "taker",
+            "price": 2.574,
+            "amount": 2.01,
+            "cost": 5.17374,
+            "fee": {
+              "currency": "USDT",
+              "cost": 0.004656366
+            },
+            "fees": [
+              {
+                "currency": "USDT",
+                "cost": 0.004656366
+              }
+            ]
+          }
+        }
+      ]
+    ],
+    "database_storage": {
+      "status": "success",
+      "stored_count": 10,
+      "error_count": 0,
+      "total_trades": 10
+    },
+    "database_validation": {
+      "trades_with_p1": 10,
+      "trades_with_p2": 10,
+      "trades_with_p1_fee": 5,
+      "trades_with_p2_fee": 5,
+      "trades_with_price": 10,
+      "trades_with_amount": 10,
+      "trades_with_cost": 10,
+      "total_trades": 10
+    },
+    "position_calculation": {
+      "status": "success",
+      "position": {
+        "exchange": "gateio_spot",
+        "symbol": "BERA/USDT",
+        "is_perpetual": false,
+        "p1": 0.12,
+        "p2": -0.32295,
+        "p1_fee": 0.009045,
+        "p2_fee": 0.023148558,
+        "avg_price": 2.49834535,
+        "size": 0.12,
+        "value": 0.32295,
+        "side": "long",
+        "is_open": true,
+        "last_update_time": "2025-06-03T13:35:53.791788",
+        "entry_time": "2025-06-03T13:35:53.787984",
+        "trade_count": 10
+      },
+      "validation": {
+        "size_reasonable": true,
+        "fees_positive": true,
+        "price_positive": true,
+        "p1_p2_consistent": true,
+        "close_to_zero": true
+      }
+    }
+  },
+  "bitget_spot": {
+    "initial_state": {
+      "balance": {
+        "BTC": 9.87e-05,
+        "USDT": 132.16384324794,
+        "ORNJ": 13.35663,
+        "BERA": 0.055
+      },
+      "mid_price": 2.5883,
+      "trade_count": 0,
+      "position": null
+    },
+    "config": {
+      "symbol": "BERA/USDT",
+      "amount": 1.0,
+      "market_buy_requires_quote": true
+    },
+    "trade_execution": {
+      "status": "success",
+      "buy_order_id": "1313849806000566272",
+      "sell_order_id": "1313849822370934790",
+      "buy_price": null,
+      "sell_price": null,
+      "notional_value": 2.58805,
+      "exchange_type": "spot"
+    },
+    "trade_fetch": {
+      "status": "success",
+      "total_fetched": 13,
+      "recent_trades": 13,
+      "attempts": 1,
+      "lookback_days": 7
+    },
+    "trade_matching": {
+      "status": "success",
+      "buy_found": true,
+      "sell_found": true,
+      "matched_count": 2
+    },
+    "matched_trades": [
+      [
+        "buy",
+        {
+          "id": "1313834632952996014",
+          "order_id": "1313834632912908293",
+          "symbol": "BERA/USDT",
+          "side": "buy",
+          "amount": "1.0",
+          "price": "2.5949",
+          "cost": "2.5949",
+          "fee": {
+            "currency": "BERA",
+            "cost": 0.001
+          },
+          "timestamp": 1748968507040,
+          "datetime": "2025-06-03T16:35:07.040Z",
+          "exchange": "bitget",
+          "raw": {
+            "info": {
+              "userId": "5520266148",
+              "symbol": "BERAUSDT",
+              "orderId": "1313834632912908293",
+              "tradeId": "1313834632952996014",
+              "orderType": "market",
+              "side": "buy",
+              "priceAvg": "2.5949",
+              "size": "1",
+              "amount": "2.5949",
+              "feeDetail": {
+                "deduction": "no",
+                "feeCoin": "BERA",
+                "totalDeductionFee": "",
+                "totalFee": "-0.001"
+              },
+              "tradeScope": "taker",
+              "cTime": "1748968507040",
+              "uTime": "1748968507051"
+            },
+            "id": "1313834632952996014",
+            "order": "1313834632912908293",
+            "symbol": "BERA/USDT",
+            "side": "buy",
+            "type": "market",
+            "takerOrMaker": "taker",
+            "price": 2.5949,
+            "amount": 1.0,
+            "cost": 2.5949,
+            "timestamp": 1748968507040,
+            "datetime": "2025-06-03T16:35:07.040Z",
+            "fee": {
+              "currency": "BERA",
+              "cost": 0.001
+            },
+            "fees": [
+              {
+                "currency": "BERA",
+                "cost": 0.001
+              }
+            ]
+          }
+        }
+      ],
+      [
+        "sell",
+        {
+          "id": "1313846976118579205",
+          "order_id": "1313846976091074572",
+          "symbol": "BERA/USDT",
+          "side": "sell",
+          "amount": "1.0",
+          "price": "2.5977",
+          "cost": "2.5977",
+          "fee": {
+            "currency": "USDT",
+            "cost": 0.0025977
+          },
+          "timestamp": 1748971449880,
+          "datetime": "2025-06-03T17:24:09.880Z",
+          "exchange": "bitget",
+          "raw": {
+            "info": {
+              "userId": "5520266148",
+              "symbol": "BERAUSDT",
+              "orderId": "1313846976091074572",
+              "tradeId": "1313846976118579205",
+              "orderType": "market",
+              "side": "sell",
+              "priceAvg": "2.5977",
+              "size": "1",
+              "amount": "2.5977",
+              "feeDetail": {
+                "deduction": "no",
+                "feeCoin": "USDT",
+                "totalDeductionFee": "",
+                "totalFee": "-0.0025977"
+              },
+              "tradeScope": "taker",
+              "cTime": "1748971449880",
+              "uTime": "1748971449912"
+            },
+            "id": "1313846976118579205",
+            "order": "1313846976091074572",
+            "symbol": "BERA/USDT",
+            "side": "sell",
+            "type": "market",
+            "takerOrMaker": "taker",
+            "price": 2.5977,
+            "amount": 1.0,
+            "cost": 2.5977,
+            "timestamp": 1748971449880,
+            "datetime": "2025-06-03T17:24:09.880Z",
+            "fee": {
+              "currency": "USDT",
+              "cost": 0.0025977
+            },
+            "fees": [
+              {
+                "currency": "USDT",
+                "cost": 0.0025977
+              }
+            ]
+          }
+        }
+      ]
+    ],
+    "database_storage": {
+      "status": "success",
+      "stored_count": 13,
+      "error_count": 0,
+      "total_trades": 13
+    },
+    "database_validation": {
+      "trades_with_p1": 13,
+      "trades_with_p2": 13,
+      "trades_with_p1_fee": 7,
+      "trades_with_p2_fee": 6,
+      "trades_with_price": 13,
+      "trades_with_amount": 13,
+      "trades_with_cost": 13,
+      "total_trades": 13
+    },
+    "position_calculation": {
+      "status": "success",
+      "position": {
+        "exchange": "bitget_spot",
+        "symbol": "BERA/USDT",
+        "is_perpetual": false,
+        "p1": 0.06,
+        "p2": -0.175697,
+        "p1_fee": 0.006,
+        "p2_fee": 0.015382375,
+        "avg_price": 2.6719104166666665,
+        "size": 0.06,
+        "value": 0.175697,
+        "side": "long",
+        "is_open": true,
+        "last_update_time": "2025-06-03T13:35:53.794684",
+        "entry_time": "2025-06-03T13:35:53.792023",
+        "trade_count": 13
+      },
+      "validation": {
+        "size_reasonable": true,
+        "fees_positive": true,
+        "price_positive": true,
+        "p1_p2_consistent": true,
+        "close_to_zero": true
+      }
+    }
+  },
+  "hyperliquid_perp": {
+    "initial_state": {
+      "balance": {
+        "USDC": 499.073084
+      },
+      "mid_price": 105851.5,
+      "trade_count": 0,
+      "position": null
+    },
+    "config": {
+      "symbol": "BTC/USDC:USDC",
+      "amount": 0.001,
+      "market_buy_requires_quote": false
+    },
+    "trade_execution": {
+      "status": "success",
+      "buy_order_id": "99603770066",
+      "sell_order_id": "99603780080",
+      "buy_price": null,
+      "sell_price": null,
+      "notional_value": 105.8105,
+      "exchange_type": "perpetual"
+    },
+    "trade_fetch": {
+      "status": "success",
+      "total_fetched": 24,
+      "recent_trades": 24,
+      "attempts": 1,
+      "lookback_days": 7
+    },
+    "trade_matching": {
+      "status": "success",
+      "buy_found": true,
+      "sell_found": true,
+      "matched_count": 2
+    },
+    "matched_trades": [
+      [
+        "buy",
+        {
+          "id": "343156258880842",
+          "order_id": "99565499985",
+          "symbol": "BTC/USDC:USDC",
+          "side": "buy",
+          "amount": "0.001",
+          "price": "106465.0",
+          "cost": "106.465",
+          "fee": {
+            "currency": "USDC",
+            "cost": 0.047909
+          },
+          "timestamp": 1748962291640,
+          "datetime": "2025-06-03T14:51:31.640Z",
+          "exchange": "hyperliquid",
+          "raw": {
+            "info": {
+              "coin": "BTC",
+              "px": "106465.0",
+              "sz": "0.001",
+              "side": "B",
+              "time": "1748962291640",
+              "startPosition": "0.0",
+              "dir": "Open Long",
+              "closedPnl": "0.0",
+              "hash": "0x2d2d891bb0fe799612fb0424c4a2e302025a00e3bd8255d7e98fe29833ccbe10",
+              "oid": "99565499985",
+              "crossed": true,
+              "fee": "0.047909",
+              "tid": "343156258880842",
+              "feeToken": "USDC"
+            },
+            "timestamp": 1748962291640,
+            "datetime": "2025-06-03T14:51:31.640Z",
+            "symbol": "BTC/USDC:USDC",
+            "id": "343156258880842",
+            "order": "99565499985",
+            "type": null,
+            "side": "buy",
+            "takerOrMaker": "taker",
+            "price": 106465.0,
+            "amount": 0.001,
+            "cost": 106.465,
+            "fee": {
+              "currency": "USDC",
+              "cost": 0.047909
+            },
+            "fees": [
+              {
+                "currency": "USDC",
+                "cost": 0.047909
+              }
+            ]
+          }
+        }
+      ],
+      [
+        "sell",
+        {
+          "id": "592826798902047",
+          "order_id": "99565517565",
+          "symbol": "BTC/USDC:USDC",
+          "side": "sell",
+          "amount": "0.001",
+          "price": "106473.0",
+          "cost": "106.473",
+          "fee": {
+            "currency": "USDC",
+            "cost": 0.047912
+          },
+          "timestamp": 1748962296278,
+          "datetime": "2025-06-03T14:51:36.278Z",
+          "exchange": "hyperliquid",
+          "raw": {
+            "info": {
+              "coin": "BTC",
+              "px": "106473.0",
+              "sz": "0.001",
+              "side": "A",
+              "time": "1748962296278",
+              "startPosition": "0.001",
+              "dir": "Close Long",
+              "closedPnl": "0.008",
+              "hash": "0xa7ae06ee055efcb367980424c4a31901d100a430b51d9ccf817d93f35a152f6a",
+              "oid": "99565517565",
+              "crossed": true,
+              "fee": "0.047912",
+              "tid": "592826798902047",
+              "feeToken": "USDC"
+            },
+            "timestamp": 1748962296278,
+            "datetime": "2025-06-03T14:51:36.278Z",
+            "symbol": "BTC/USDC:USDC",
+            "id": "592826798902047",
+            "order": "99565517565",
+            "type": null,
+            "side": "sell",
+            "takerOrMaker": "taker",
+            "price": 106473.0,
+            "amount": 0.001,
+            "cost": 106.473,
+            "fee": {
+              "currency": "USDC",
+              "cost": 0.047912
+            },
+            "fees": [
+              {
+                "currency": "USDC",
+                "cost": 0.047912
+              }
+            ]
+          }
+        }
+      ]
+    ],
+    "database_storage": {
+      "status": "success",
+      "stored_count": 24,
+      "error_count": 0,
+      "total_trades": 24
+    },
+    "database_validation": {
+      "trades_with_p1": 24,
+      "trades_with_p2": 24,
+      "trades_with_p1_fee": 0,
+      "trades_with_p2_fee": 24,
+      "trades_with_price": 24,
+      "trades_with_amount": 24,
+      "trades_with_cost": 24,
+      "total_trades": 24
+    },
+    "position_calculation": {
+      "status": "success",
+      "position": {
+        "exchange": "hyperliquid_perp",
+        "symbol": "BTC/USDC:USDC",
+        "is_perpetual": true,
+        "p1": 0.0,
+        "p2": -0.055,
+        "p1_fee": 0.0,
+        "p2_fee": 1.148144,
+        "avg_price": null,
+        "size": 0.0,
+        "value": 0.055,
+        "side": null,
+        "is_open": false,
+        "last_update_time": "2025-06-03T13:35:53.799885",
+        "entry_time": "2025-06-03T13:35:53.794900",
+        "trade_count": 24
+      },
+      "validation": {
+        "size_reasonable": true,
+        "fees_positive": true,
+        "price_positive": true,
+        "p1_p2_consistent": true,
+        "close_to_zero": true
+      }
+    }
+  },
+  "net_positions": {
+    "BERA/USDT": {
+      "symbol": "BERA/USDT",
+      "p1": 0.853,
+      "p2": -2.395256,
+      "p1_fee": 0.033645,
+      "p2_fee": 0.214030758,
+      "avg_price": 2.557122206330598,
+      "size": 0.853,
+      "value": 2.395256,
+      "side": "long",
+      "is_open": true
+    },
+    "BTC/USDC:USDC": {
+      "symbol": "BTC/USDC:USDC",
+      "p1": 0.0,
+      "p2": -0.055,
+      "p1_fee": 0.0,
+      "p2_fee": 1.148144,
+      "avg_price": null,
+      "size": 0.0,
+      "value": 0.055,
+      "side": null,
+      "is_open": false
+    },
+    "BTC/USDT:USDT": {
+      "symbol": "BTC/USDT:USDT",
+      "p1": 0.0,
+      "p2": 0.056,
+      "p1_fee": 0.0,
+      "p2_fee": 3.03547002,
+      "avg_price": null,
+      "size": 0.0,
+      "value": -0.056,
+      "side": null,
+      "is_open": false
+    }
+  }
+}

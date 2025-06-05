@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-06-04T20:30:19.005726",
+  "test_results": {
+    "total_positions": 8,
+    "exchanges_with_positions": 8,
+    "positions_by_exchange": {
+      "binance_spot": 1,
+      "binance_perp": 1,
+      "bybit_spot": 1,
+      "bybit_perp": 1,
+      "hyperliquid_perp": 1,
+      "mexc_spot": 1,
+      "gateio_spot": 1,
+      "bitget_spot": 1
+    },
+    "all_symbols": [
+      "BERA/USDT",
+      "BERA/USDT-PERP"
+    ]
+  },
+  "api_results": null,
+  "status": "SUCCESS",
+  "tests_passed": [
+    "Data sources cleared",
+    "Position manager fixes verified",
+    "Deduplication working",
+    "Symbol filtering working",
+    "No duplicates created",
+    "BERA-only positions confirmed"
+  ]
+}

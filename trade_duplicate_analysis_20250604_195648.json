@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-06-04T19:56:48.158312",
+  "total_trades_analyzed": 61,
+  "analysis_summary": {
+    "exact_duplicates": 0,
+    "near_time_duplicates": 0,
+    "same_order_duplicates": 0,
+    "composite_duplicates": 0
+  },
+  "detailed_duplicates": {}
+}

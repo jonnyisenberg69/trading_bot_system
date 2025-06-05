@@ -1,0 +1,81 @@
+================================================================================
+CCXT EXCHANGE INTEGRATION TEST REPORT
+================================================================================
+Generated: 2025-06-01T20:50:01.044552
+
+SUMMARY:
+  Total Exchanges: 6
+  Successful: 6
+  Failed: 0
+  Success Rate: 100.0%
+
+DETAILED RESULTS:
+----------------------------------------
+
+BINANCE - ✅ PASS
+  Markets Loaded: ✅
+  Total Symbols: 3693
+  Spot Symbols: 3127
+  Perp Symbols: 566
+  Orderbook Test: ✅
+  Sample Symbols: ETH/BTC, LTC/BTC, BNB/BTC
+  Timing: load_markets: 4.03s, orderbook: 0.29s, total: 4.33s
+
+BYBIT - ✅ PASS
+  Markets Loaded: ✅
+  Total Symbols: 2593
+  Spot Symbols: 633
+  Perp Symbols: 614
+  Orderbook Test: ✅
+  Sample Symbols: BTC/USDT, ETH/USDT, XRP/USDT
+  Timing: load_markets: 4.90s, orderbook: 1.88s, total: 6.80s
+
+GATE - ✅ PASS
+  Markets Loaded: ✅
+  Total Symbols: 5632
+  Spot Symbols: 2942
+  Perp Symbols: 608
+  Orderbook Test: ✅
+  Sample Symbols: ALEPH/USDT, ORNJ/USDT, HAM/USDT
+  Timing: load_markets: 11.24s, orderbook: 0.54s, total: 11.80s
+
+MEXC - ✅ PASS
+  Markets Loaded: ✅
+  Total Symbols: 3308
+  Spot Symbols: 2517
+  Perp Symbols: 791
+  Orderbook Test: ✅
+  Sample Symbols: BROCK/USDT, BNT/USDT, NTX/USDT
+  Timing: load_markets: 2.57s, orderbook: 15.41s, total: 17.99s
+
+BITGET - ✅ PASS
+  Markets Loaded: ✅
+  Total Symbols: 1369
+  Spot Symbols: 807
+  Perp Symbols: 562
+  Orderbook Test: ✅
+  Sample Symbols: LUMIA/USDT, GOAT/USDT, ENA/EUR
+  Timing: load_markets: 3.07s, orderbook: 0.45s, total: 3.53s
+
+HYPERLIQUID - ✅ PASS
+  Markets Loaded: ✅
+  Total Symbols: 370
+  Spot Symbols: 172
+  Perp Symbols: 198
+  Orderbook Test: ✅
+  Sample Symbols: PURR/USDC, HFUN/USDC, LICK/USDC
+  Timing: load_markets: 9.76s, orderbook: 4.29s, total: 14.06s
+
+SYMBOL COUNT ANALYSIS:
+------------------------------
+  gate         | Total: 5632 | Spot: 2942 | Perp:  608
+  binance      | Total: 3693 | Spot: 3127 | Perp:  566
+  mexc         | Total: 3308 | Spot: 2517 | Perp:  791
+  bybit        | Total: 2593 | Spot:  633 | Perp:  614
+  bitget       | Total: 1369 | Spot:  807 | Perp:  562
+  hyperliquid  | Total:  370 | Spot:  172 | Perp:  198
+
+RECOMMENDATIONS:
+--------------------
+
+================================================================================

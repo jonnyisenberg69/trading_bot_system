@@ -1,0 +1,56 @@
+================================================================================
+WEBSOCKET CONNECTOR TEST REPORT
+================================================================================
+Generated: 2025-06-01T20:58:05.318864
+
+SUMMARY:
+  Total Connectors: 3
+  Successful: 3
+  Failed: 0
+  Success Rate: 100.0%
+
+DETAILED RESULTS:
+----------------------------------------
+
+BINANCE - ✅ PASS
+  Initialization: ✅
+  Markets Loaded: ✅
+  Total Symbols: 3693
+  Spot Symbols: 3127
+  Swap Symbols: 534
+  Orderbook Tests: 5/5 passed
+  Ticker Test: ✅
+  Trade Test: ✅
+  Timing: initialization: 2.33s, markets: 0.00s, orderbooks: 1.41s, ticker: 0.27s, trades: 0.57s, total: 4.59s
+
+BYBIT - ✅ PASS
+  Initialization: ✅
+  Markets Loaded: ✅
+  Total Symbols: 2593
+  Spot Symbols: 633
+  Swap Symbols: 584
+  Orderbook Tests: 5/5 passed
+  Ticker Test: ✅
+  Trade Test: ✅
+  Timing: initialization: 3.96s, markets: 0.00s, orderbooks: 5.35s, ticker: 1.20s, trades: 0.84s, total: 11.36s
+
+HYPERLIQUID - ✅ PASS
+  Initialization: ✅
+  Markets Loaded: ✅
+  Total Symbols: 370
+  Spot Symbols: 172
+  Swap Symbols: 198
+  Orderbook Tests: 4/5 passed
+  Ticker Test: ❌
+  Trade Test: ❌
+  Timing: initialization: 8.26s, markets: 0.00s, orderbooks: 5.63s, ticker: 4.31s, trades: 0.00s, total: 18.20s
+
+SYMBOL COUNT COMPARISON:
+------------------------------
+Exchange     | Total  | Spot   | Swap  
+----------------------------------------
+binance      | 3693   | 3127   | 534   
+bybit        | 2593   | 633    | 584   
+hyperliquid  | 370    | 172    | 198   
+
+================================================================================

@@ -1,0 +1,142 @@
+
+╔═══════════════════════════════════════════════════════════════╗
+║                 PASSIVE QUOTING TRADING BOT                  ║
+║                     SYSTEM STARTUP                           ║
+╚═══════════════════════════════════════════════════════════════╝
+    
+🧪 Running system tests...
+🤖 Passive Quoting Trading Bot System
+==================================================
+Components tested:
+  • Passive Quoting Strategy
+  • Configuration Management
+  • Multi-line Quote Management
+  • Timeout & Drift Handling
+  • Order Placement Simulation
+  • API Integration Ready
+  • Frontend Integration Ready
+
+
+🔧 Testing Configuration System
+==================================================
+2025-06-05 13:16:44 [info     ] Loaded configuration from /Users/jonnyisenberg/Desktop/MM_BOT/trading_bot_system/config/config.json
+✅ Main configuration loaded
+✅ Passive quoting configuration found
+   - Default config lines: 2
+   - Available presets: ['conservative', 'aggressive']
+   - Testing preset 'conservative' with 1 lines
+🧪 Testing Passive Quoting Strategy
+==================================================
+✅ Created strategy instance: test_passive_quoting_001
+2025-06-05 13:16:44 [info     ] Validated config with 2 quote lines instance_id=test_passive_quoting_001 strategy=PassiveQuotingStrategy symbol=BTC/USDT
+✅ Configuration validation passed
+2025-06-05 13:16:44 [info     ] Initializing strategy          instance_id=test_passive_quoting_001 strategy=PassiveQuotingStrategy symbol=BTC/USDT
+2025-06-05 13:16:44 [info     ] Validated config with 2 quote lines instance_id=test_passive_quoting_001 strategy=PassiveQuotingStrategy symbol=BTC/USDT
+2025-06-05 13:16:44 [info     ] Initializing connections for exchanges: ['binance', 'bybit'] instance_id=test_passive_quoting_001 strategy=PassiveQuotingStrategy symbol=BTC/USDT
+✅ Strategy initialization passed
+🚀 Starting strategy simulation...
+2025-06-05 13:16:44 [info     ] Starting strategy              instance_id=test_passive_quoting_001 strategy=PassiveQuotingStrategy symbol=BTC/USDT
+2025-06-05 13:16:44 [info     ] Starting WebSocket trade monitoring instance_id=test_passive_quoting_001 strategy=PassiveQuotingStrategy symbol=BTC/USDT
+2025-06-05 13:16:44 [info     ] WebSocket connection pool started component=WebSocketConnectionPool
+2025-06-05 13:16:44 [info     ] Subscribing strategy test_passive_quoting_001 to WebSocket connections component=WebSocketConnectionPool
+2025-06-05 13:16:44 [info     ] Strategy test_passive_quoting_001 subscription complete: 0/0 connections successful component=WebSocketConnectionPool
+2025-06-05 13:16:44 [error    ] ❌ Failed to start WebSocket trade monitoring instance_id=test_passive_quoting_001 strategy=PassiveQuotingStrategy symbol=BTC/USDT
+2025-06-05 13:16:44 [error    ] ❌ No WebSocket connections available instance_id=test_passive_quoting_001 strategy=PassiveQuotingStrategy symbol=BTC/USDT
+2025-06-05 13:16:44 [info     ] Starting passive quoting strategy with WebSocket orderbook feeds instance_id=test_passive_quoting_001 strategy=PassiveQuotingStrategy symbol=BTC/USDT
+2025-06-05 13:16:44 [info     ] Setting up WebSocket connections for orderbook feeds instance_id=test_passive_quoting_001 strategy=PassiveQuotingStrategy symbol=BTC/USDT
+2025-06-05 13:16:44 [warning  ] No connector available for binance instance_id=test_passive_quoting_001 strategy=PassiveQuotingStrategy symbol=BTC/USDT
+2025-06-05 13:16:44 [warning  ] No connector available for bybit instance_id=test_passive_quoting_001 strategy=PassiveQuotingStrategy symbol=BTC/USDT
+📊 Performance stats after 5 seconds:
+   - Orders placed: 0
+   - Active orders: 0
+   - Quote lines: 2
+📈 Line status:
+   Line 1: both @ 25.0bps
+     - Bid active: 0, Ask active: 0
+   Line 2: bid @ 50.0bps
+     - Bid active: 0, Ask active: 0
+✅ Strategy simulation completed successfully
+2025-06-05 13:16:49 [info     ] Stopping strategy              instance_id=test_passive_quoting_001 strategy=PassiveQuotingStrategy symbol=BTC/USDT
+2025-06-05 13:16:49 [info     ] Stopping passive quoting strategy instance_id=test_passive_quoting_001 strategy=PassiveQuotingStrategy symbol=BTC/USDT
+2025-06-05 13:16:49 [info     ] Cancelling all active orders   instance_id=test_passive_quoting_001 strategy=PassiveQuotingStrategy symbol=BTC/USDT
+INFO:     Will watch for changes in these directories: ['/Users/jonnyisenberg/Desktop/MM_BOT/trading_bot_system']
+ERROR:    [Errno 48] Address already in use
+🛑 Strategy stopped
+
+🎉 All tests passed! Passive quoting system is ready.
+
+Next steps:
+1. Start the API server: python api/main.py
+2. Start the frontend: cd frontend && npm start
+3. Navigate to http://localhost:3000/passive-quoting
+4. Configure and create your passive quoting bot!
+✅ All tests passed!
+
+╔═══════════════════════════════════════════════════════════════╗
+║                    FRONTEND SETUP                            ║
+╚═══════════════════════════════════════════════════════════════╝
+
+To start the frontend (in a new terminal):
+
+1. Navigate to the frontend directory:
+   cd frontend
+
+2. Install dependencies (if not already installed):
+   npm install
+
+3. Start the development server:
+   npm start
+
+4. Open your browser to:
+   http://localhost:3000
+
+5. Navigate to the Passive Quoting page:
+   http://localhost:3000/passive-quoting
+
+╔═══════════════════════════════════════════════════════════════╗
+║                    USAGE INSTRUCTIONS                        ║
+╚═══════════════════════════════════════════════════════════════╝
+
+1. Configure Exchanges:
+   - Go to http://localhost:3000/exchanges
+   - Add your exchange API credentials
+   - Test connections
+
+2. Create Passive Quoting Bot:
+   - Go to http://localhost:3000/passive-quoting
+   - Configure your quote lines
+   - Select exchanges
+   - Create bot
+
+3. Monitor Performance:
+   - Go to http://localhost:3000/bots
+   - View bot status and performance
+   - Start/stop bots as needed
+
+4. Quick Config Updates:
+   - Use the "Quick Update" feature for sub-5-second updates
+   - Change parameters without manually stopping/starting
+
+╔═══════════════════════════════════════════════════════════════╗
+║                 PASSIVE QUOTING FEATURES                     ║
+╚═══════════════════════════════════════════════════════════════╝
+
+✅ Multiple quote lines with different parameters
+✅ Timeout-based order cancellation
+✅ Drift-based order cancellation  
+✅ Quantity randomization
+✅ Multi-exchange support
+✅ Client order ID format: pass_quote_{SIDE}_{timestamp}
+✅ Base or quote currency quantities
+✅ Configurable spreads in basis points
+✅ Bid-only, ask-only, or both sides per line
+✅ Quick configuration updates (<5 seconds)
+✅ Configuration presets
+✅ Real-time monitoring
+
+Press Ctrl+C to stop the API server when done.
+    
+
+🚀 Starting API server...
+Starting FastAPI server on http://localhost:8000
+API Documentation will be available at: http://localhost:8000/docs

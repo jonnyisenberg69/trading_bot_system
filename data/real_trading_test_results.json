@@ -1,0 +1,963 @@
+{
+  "binance_spot": {
+    "market_price": 105597.595,
+    "bid_price": 105597.59,
+    "ask_price": 105597.6,
+    "buy_order": {
+      "id": "44174573193",
+      "symbol": "BTC/USDT",
+      "side": "buy",
+      "amount": "0.0001",
+      "price": "105642.08",
+      "filled": "0.0001",
+      "remaining": "0.0",
+      "status": "OrderStatus.FILLED",
+      "type": "market",
+      "timestamp": 1748958162636,
+      "datetime": "2025-06-03T13:42:42.636Z",
+      "fee": {
+        "currency": "BTC",
+        "cost": 1e-07
+      },
+      "exchange": "binance",
+      "raw": {
+        "info": {
+          "symbol": "BTCUSDT",
+          "orderId": "44174573193",
+          "orderListId": "-1",
+          "clientOrderId": "x-TKT5PX2F5e6ce2108fc8d8cb9b95c8",
+          "transactTime": "1748958162636",
+          "price": "0.00000000",
+          "origQty": "0.00010000",
+          "executedQty": "0.00010000",
+          "origQuoteOrderQty": "0.00000000",
+          "cummulativeQuoteQty": "10.56420800",
+          "status": "FILLED",
+          "timeInForce": "GTC",
+          "type": "MARKET",
+          "side": "BUY",
+          "workingTime": "1748958162636",
+          "fills": [
+            {
+              "price": "105642.08000000",
+              "qty": "0.00010000",
+              "commission": "0.00000010",
+              "commissionAsset": "BTC",
+              "tradeId": "4980243130"
+            }
+          ],
+          "selfTradePreventionMode": "EXPIRE_MAKER"
+        },
+        "id": "44174573193",
+        "clientOrderId": "x-TKT5PX2F5e6ce2108fc8d8cb9b95c8",
+        "timestamp": 1748958162636,
+        "datetime": "2025-06-03T13:42:42.636Z",
+        "lastTradeTimestamp": 1748958162636,
+        "lastUpdateTimestamp": 1748958162636,
+        "symbol": "BTC/USDT",
+        "type": "market",
+        "timeInForce": "GTC",
+        "postOnly": false,
+        "reduceOnly": null,
+        "side": "buy",
+        "price": 105642.08,
+        "triggerPrice": null,
+        "amount": 0.0001,
+        "cost": 10.564208,
+        "average": 105642.08,
+        "filled": 0.0001,
+        "remaining": 0.0,
+        "status": "closed",
+        "fee": {
+          "currency": "BTC",
+          "cost": 1e-07
+        },
+        "trades": [
+          {
+            "info": {
+              "price": "105642.08000000",
+              "qty": "0.00010000",
+              "commission": "0.00000010",
+              "commissionAsset": "BTC",
+              "tradeId": "4980243130"
+            },
+            "timestamp": null,
+            "datetime": null,
+            "symbol": "BTC/USDT",
+            "id": "4980243130",
+            "order": null,
+            "type": null,
+            "side": null,
+            "takerOrMaker": null,
+            "price": 105642.08,
+            "amount": 0.0001,
+            "cost": 10.564208,
+            "fee": {
+              "currency": "BTC",
+              "cost": 1e-07
+            },
+            "fees": [
+              {
+                "currency": "BTC",
+                "cost": 1e-07
+              }
+            ]
+          }
+        ],
+        "fees": [
+          {
+            "currency": "BTC",
+            "cost": 1e-07
+          }
+        ],
+        "stopPrice": null,
+        "takeProfitPrice": null,
+        "stopLossPrice": null
+      }
+    },
+    "status": "error",
+    "error": "binance Account has insufficient balance for requested action.",
+    "trades_fetched": 1,
+    "recent_trades": [
+      {
+        "id": "4980243130",
+        "order_id": "44174573193",
+        "symbol": "BTC/USDT",
+        "side": "buy",
+        "amount": "0.0001",
+        "price": "105642.08",
+        "cost": "10.564208",
+        "fee": {
+          "currency": "BTC",
+          "cost": 1e-07
+        },
+        "timestamp": 1748958162636,
+        "datetime": "2025-06-03T13:42:42.636Z",
+        "exchange": "binance",
+        "raw": {
+          "info": {
+            "symbol": "BTCUSDT",
+            "id": "4980243130",
+            "orderId": "44174573193",
+            "orderListId": "-1",
+            "price": "105642.08000000",
+            "qty": "0.00010000",
+            "quoteQty": "10.56420800",
+            "commission": "0.00000010",
+            "commissionAsset": "BTC",
+            "time": "1748958162636",
+            "isBuyer": true,
+            "isMaker": false,
+            "isBestMatch": true
+          },
+          "timestamp": 1748958162636,
+          "datetime": "2025-06-03T13:42:42.636Z",
+          "symbol": "BTC/USDT",
+          "id": "4980243130",
+          "order": "44174573193",
+          "type": null,
+          "side": "buy",
+          "takerOrMaker": "taker",
+          "price": 105642.08,
+          "amount": 0.0001,
+          "cost": 10.564208,
+          "fee": {
+            "currency": "BTC",
+            "cost": 1e-07
+          },
+          "fees": [
+            {
+              "currency": "BTC",
+              "cost": 1e-07
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "binance_perp": {
+    "market_price": 105545.65,
+    "bid_price": 105545.6,
+    "ask_price": 105545.7,
+    "buy_order": {
+      "id": "697731428737",
+      "symbol": "BTC/USDT:USDT",
+      "side": "buy",
+      "amount": "0.001",
+      "price": "105592.1",
+      "filled": "0.001",
+      "remaining": "0.0",
+      "status": "OrderStatus.FILLED",
+      "type": "market",
+      "timestamp": 1748958166332,
+      "datetime": "2025-06-03T13:42:46.332Z",
+      "fee": null,
+      "exchange": "binance",
+      "raw": {
+        "info": {
+          "orderId": "697731428737",
+          "symbol": "BTCUSDT",
+          "status": "FILLED",
+          "clientOrderId": "x-cvBPrNm95a4c4678483acd6055c672",
+          "price": "0.00",
+          "avgPrice": "105592.10000",
+          "origQty": "0.001",
+          "executedQty": "0.001",
+          "cumQty": "0.001",
+          "cumQuote": "105.59210",
+          "timeInForce": "GTC",
+          "type": "MARKET",
+          "reduceOnly": false,
+          "closePosition": false,
+          "side": "BUY",
+          "positionSide": "BOTH",
+          "stopPrice": "0.00",
+          "workingType": "CONTRACT_PRICE",
+          "priceProtect": false,
+          "origType": "MARKET",
+          "priceMatch": "NONE",
+          "selfTradePreventionMode": "EXPIRE_MAKER",
+          "goodTillDate": "0",
+          "updateTime": "1748958166332"
+        },
+        "id": "697731428737",
+        "clientOrderId": "x-cvBPrNm95a4c4678483acd6055c672",
+        "timestamp": 1748958166332,
+        "datetime": "2025-06-03T13:42:46.332Z",
+        "lastTradeTimestamp": 1748958166332,
+        "lastUpdateTimestamp": 1748958166332,
+        "symbol": "BTC/USDT:USDT",
+        "type": "market",
+        "timeInForce": "GTC",
+        "postOnly": false,
+        "reduceOnly": false,
+        "side": "buy",
+        "price": 105592.1,
+        "triggerPrice": null,
+        "amount": 0.001,
+        "cost": 105.5921,
+        "average": 105592.1,
+        "filled": 0.001,
+        "remaining": 0.0,
+        "status": "closed",
+        "fee": null,
+        "trades": [],
+        "fees": [],
+        "stopPrice": null,
+        "takeProfitPrice": null,
+        "stopLossPrice": null
+      }
+    },
+    "sell_order": {
+      "id": "697731478794",
+      "symbol": "BTC/USDT:USDT",
+      "side": "sell",
+      "amount": "0.001",
+      "price": "105574.4",
+      "filled": "0.001",
+      "remaining": "0.0",
+      "status": "OrderStatus.FILLED",
+      "type": "market",
+      "timestamp": 1748958169026,
+      "datetime": "2025-06-03T13:42:49.026Z",
+      "fee": null,
+      "exchange": "binance",
+      "raw": {
+        "info": {
+          "orderId": "697731478794",
+          "symbol": "BTCUSDT",
+          "status": "FILLED",
+          "clientOrderId": "x-cvBPrNm94564b2b8890132d2550e3",
+          "price": "0.00",
+          "avgPrice": "105574.40000",
+          "origQty": "0.001",
+          "executedQty": "0.001",
+          "cumQty": "0.001",
+          "cumQuote": "105.57440",
+          "timeInForce": "GTC",
+          "type": "MARKET",
+          "reduceOnly": false,
+          "closePosition": false,
+          "side": "SELL",
+          "positionSide": "BOTH",
+          "stopPrice": "0.00",
+          "workingType": "CONTRACT_PRICE",
+          "priceProtect": false,
+          "origType": "MARKET",
+          "priceMatch": "NONE",
+          "selfTradePreventionMode": "EXPIRE_MAKER",
+          "goodTillDate": "0",
+          "updateTime": "1748958169026"
+        },
+        "id": "697731478794",
+        "clientOrderId": "x-cvBPrNm94564b2b8890132d2550e3",
+        "timestamp": 1748958169026,
+        "datetime": "2025-06-03T13:42:49.026Z",
+        "lastTradeTimestamp": 1748958169026,
+        "lastUpdateTimestamp": 1748958169026,
+        "symbol": "BTC/USDT:USDT",
+        "type": "market",
+        "timeInForce": "GTC",
+        "postOnly": false,
+        "reduceOnly": false,
+        "side": "sell",
+        "price": 105574.4,
+        "triggerPrice": null,
+        "amount": 0.001,
+        "cost": 105.5744,
+        "average": 105574.4,
+        "filled": 0.001,
+        "remaining": 0.0,
+        "status": "closed",
+        "fee": null,
+        "trades": [],
+        "fees": [],
+        "stopPrice": null,
+        "takeProfitPrice": null,
+        "stopLossPrice": null
+      }
+    },
+    "status": "completed",
+    "trades_fetched": 2,
+    "recent_trades": [
+      {
+        "id": "6366677718",
+        "order_id": "697731428737",
+        "symbol": "BTC/USDT:USDT",
+        "side": "buy",
+        "amount": "0.001",
+        "price": "105592.1",
+        "cost": "105.5921",
+        "fee": {
+          "currency": "USDT",
+          "cost": 0.04223684
+        },
+        "timestamp": 1748958166332,
+        "datetime": "2025-06-03T13:42:46.332Z",
+        "exchange": "binance",
+        "raw": {
+          "info": {
+            "symbol": "BTCUSDT",
+            "id": "6366677718",
+            "orderId": "697731428737",
+            "side": "BUY",
+            "price": "105592.10",
+            "qty": "0.001",
+            "realizedPnl": "0",
+            "quoteQty": "105.59210",
+            "commission": "0.04223684",
+            "commissionAsset": "USDT",
+            "time": "1748958166332",
+            "positionSide": "BOTH",
+            "buyer": true,
+            "maker": false
+          },
+          "timestamp": 1748958166332,
+          "datetime": "2025-06-03T13:42:46.332Z",
+          "symbol": "BTC/USDT:USDT",
+          "id": "6366677718",
+          "order": "697731428737",
+          "type": null,
+          "side": "buy",
+          "takerOrMaker": "taker",
+          "price": 105592.1,
+          "amount": 0.001,
+          "cost": 105.5921,
+          "fee": {
+            "currency": "USDT",
+            "cost": 0.04223684
+          },
+          "fees": [
+            {
+              "currency": "USDT",
+              "cost": 0.04223684
+            }
+          ]
+        }
+      },
+      {
+        "id": "6366677888",
+        "order_id": "697731478794",
+        "symbol": "BTC/USDT:USDT",
+        "side": "sell",
+        "amount": "0.001",
+        "price": "105574.4",
+        "cost": "105.5744",
+        "fee": {
+          "currency": "USDT",
+          "cost": 0.04222976
+        },
+        "timestamp": 1748958169026,
+        "datetime": "2025-06-03T13:42:49.026Z",
+        "exchange": "binance",
+        "raw": {
+          "info": {
+            "symbol": "BTCUSDT",
+            "id": "6366677888",
+            "orderId": "697731478794",
+            "side": "SELL",
+            "price": "105574.40",
+            "qty": "0.001",
+            "realizedPnl": "-0.01769999",
+            "quoteQty": "105.57440",
+            "commission": "0.04222976",
+            "commissionAsset": "USDT",
+            "time": "1748958169026",
+            "positionSide": "BOTH",
+            "buyer": false,
+            "maker": false
+          },
+          "timestamp": 1748958169026,
+          "datetime": "2025-06-03T13:42:49.026Z",
+          "symbol": "BTC/USDT:USDT",
+          "id": "6366677888",
+          "order": "697731478794",
+          "type": null,
+          "side": "sell",
+          "takerOrMaker": "taker",
+          "price": 105574.4,
+          "amount": 0.001,
+          "cost": 105.5744,
+          "fee": {
+            "currency": "USDT",
+            "cost": 0.04222976
+          },
+          "fees": [
+            {
+              "currency": "USDT",
+              "cost": 0.04222976
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "bybit_spot": {
+    "market_price": 105600.05,
+    "bid_price": 105600.0,
+    "ask_price": 105600.1,
+    "buy_order": {
+      "id": "1964797978225148672",
+      "symbol": "BTC/USDT",
+      "side": null,
+      "amount": "0",
+      "price": null,
+      "filled": "0",
+      "remaining": "0",
+      "status": "OrderStatus.PENDING",
+      "type": null,
+      "timestamp": null,
+      "datetime": null,
+      "fee": null,
+      "exchange": "bybit",
+      "raw": {
+        "info": {
+          "orderId": "1964797978225148672",
+          "orderLinkId": "1964797978225148673"
+        },
+        "id": "1964797978225148672",
+        "clientOrderId": "1964797978225148673",
+        "timestamp": null,
+        "datetime": null,
+        "lastTradeTimestamp": null,
+        "lastUpdateTimestamp": null,
+        "symbol": "BTC/USDT",
+        "type": null,
+        "timeInForce": null,
+        "postOnly": null,
+        "reduceOnly": null,
+        "side": null,
+        "price": null,
+        "triggerPrice": null,
+        "takeProfitPrice": null,
+        "stopLossPrice": null,
+        "amount": null,
+        "cost": null,
+        "average": null,
+        "filled": null,
+        "remaining": null,
+        "status": null,
+        "fee": null,
+        "trades": [],
+        "fees": [],
+        "stopPrice": null
+      }
+    },
+    "sell_order": {
+      "id": "1964798002677940992",
+      "symbol": "BTC/USDT",
+      "side": null,
+      "amount": "0",
+      "price": null,
+      "filled": "0",
+      "remaining": "0",
+      "status": "OrderStatus.PENDING",
+      "type": null,
+      "timestamp": null,
+      "datetime": null,
+      "fee": null,
+      "exchange": "bybit",
+      "raw": {
+        "info": {
+          "orderId": "1964798002677940992",
+          "orderLinkId": "1964798002677940993"
+        },
+        "id": "1964798002677940992",
+        "clientOrderId": "1964798002677940993",
+        "timestamp": null,
+        "datetime": null,
+        "lastTradeTimestamp": null,
+        "lastUpdateTimestamp": null,
+        "symbol": "BTC/USDT",
+        "type": null,
+        "timeInForce": null,
+        "postOnly": null,
+        "reduceOnly": null,
+        "side": null,
+        "price": null,
+        "triggerPrice": null,
+        "takeProfitPrice": null,
+        "stopLossPrice": null,
+        "amount": null,
+        "cost": null,
+        "average": null,
+        "filled": null,
+        "remaining": null,
+        "status": null,
+        "fee": null,
+        "trades": [],
+        "fees": [],
+        "stopPrice": null
+      }
+    },
+    "status": "completed",
+    "trades_fetched": 5,
+    "recent_trades": [
+      {
+        "id": "2290000000828784090",
+        "order_id": "1964798022667993856",
+        "symbol": "BTC/USDT",
+        "side": "buy",
+        "amount": "0.001",
+        "price": "105601.0",
+        "cost": "105.601",
+        "fee": {
+          "currency": "BTC",
+          "cost": 1e-06,
+          "rate": 0.001
+        },
+        "timestamp": 1748958176393,
+        "datetime": "2025-06-03T13:42:56.393Z",
+        "exchange": "bybit",
+        "raw": {
+          "id": "2290000000828784090",
+          "info": {
+            "symbol": "BTCUSDT",
+            "orderType": "Market",
+            "underlyingPrice": "",
+            "orderLinkId": "1964798022667993857",
+            "orderId": "1964798022667993856",
+            "stopOrderType": "",
+            "execTime": "1748958176393",
+            "feeCurrency": "BTC",
+            "feeRate": "0.001",
+            "tradeIv": "",
+            "blockTradeId": "",
+            "markPrice": "",
+            "execPrice": "105601",
+            "markIv": "",
+            "orderQty": "0.001",
+            "orderPrice": "106658.4",
+            "execValue": "105.601",
+            "closedSize": "",
+            "execType": "Trade",
+            "seq": "75795612411",
+            "side": "Buy",
+            "indexPrice": "",
+            "leavesQty": "0",
+            "isMaker": false,
+            "execFee": "0.000001",
+            "execId": "2290000000828784090",
+            "marketUnit": "baseCoin",
+            "execQty": "0.001",
+            "extraFees": ""
+          },
+          "timestamp": 1748958176393,
+          "datetime": "2025-06-03T13:42:56.393Z",
+          "symbol": "BTC/USDT",
+          "order": "1964798022667993856",
+          "type": "market",
+          "side": "buy",
+          "takerOrMaker": "taker",
+          "price": 105601.0,
+          "amount": 0.001,
+          "cost": 105.601,
+          "fee": {
+            "currency": "BTC",
+            "cost": 1e-06,
+            "rate": 0.001
+          },
+          "fees": [
+            {
+              "currency": "BTC",
+              "cost": 1e-06,
+              "rate": 0.001
+            }
+          ]
+        }
+      },
+      {
+        "id": "2290000000828784094",
+        "order_id": "1964798047003345664",
+        "symbol": "BTC/USDT",
+        "side": "sell",
+        "amount": "0.001",
+        "price": "105600.9",
+        "cost": "105.6009",
+        "fee": {
+          "currency": "USDT",
+          "cost": 0.1056009,
+          "rate": 0.001
+        },
+        "timestamp": 1748958179295,
+        "datetime": "2025-06-03T13:42:59.295Z",
+        "exchange": "bybit",
+        "raw": {
+          "id": "2290000000828784094",
+          "info": {
+            "symbol": "BTCUSDT",
+            "orderType": "Market",
+            "underlyingPrice": "",
+            "orderLinkId": "1964798047003345665",
+            "orderId": "1964798047003345664",
+            "stopOrderType": "",
+            "execTime": "1748958179295",
+            "feeCurrency": "USDT",
+            "feeRate": "0.001",
+            "tradeIv": "",
+            "blockTradeId": "",
+            "markPrice": "",
+            "execPrice": "105600.9",
+            "markIv": "",
+            "orderQty": "0.001",
+            "orderPrice": "104546.7",
+            "execValue": "105.6009",
+            "closedSize": "",
+            "execType": "Trade",
+            "seq": "75795615547",
+            "side": "Sell",
+            "indexPrice": "",
+            "leavesQty": "0",
+            "isMaker": false,
+            "execFee": "0.1056009",
+            "execId": "2290000000828784094",
+            "marketUnit": "baseCoin",
+            "execQty": "0.001",
+            "extraFees": "",
+            "nextPageCursor": "15368850%3A0%2C15368786%3A0"
+          },
+          "timestamp": 1748958179295,
+          "datetime": "2025-06-03T13:42:59.295Z",
+          "symbol": "BTC/USDT",
+          "order": "1964798047003345664",
+          "type": "market",
+          "side": "sell",
+          "takerOrMaker": "taker",
+          "price": 105600.9,
+          "amount": 0.001,
+          "cost": 105.6009,
+          "fee": {
+            "currency": "USDT",
+            "cost": 0.1056009,
+            "rate": 0.001
+          },
+          "fees": [
+            {
+              "currency": "USDT",
+              "cost": 0.1056009,
+              "rate": 0.001
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "bybit_perp": {
+    "market_price": 105600.05,
+    "bid_price": 105600.0,
+    "ask_price": 105600.1,
+    "buy_order": {
+      "id": "1964798022667993856",
+      "symbol": "BTC/USDT",
+      "side": null,
+      "amount": "0",
+      "price": null,
+      "filled": "0",
+      "remaining": "0",
+      "status": "OrderStatus.PENDING",
+      "type": null,
+      "timestamp": null,
+      "datetime": null,
+      "fee": null,
+      "exchange": "bybit",
+      "raw": {
+        "info": {
+          "orderId": "1964798022667993856",
+          "orderLinkId": "1964798022667993857"
+        },
+        "id": "1964798022667993856",
+        "clientOrderId": "1964798022667993857",
+        "timestamp": null,
+        "datetime": null,
+        "lastTradeTimestamp": null,
+        "lastUpdateTimestamp": null,
+        "symbol": "BTC/USDT",
+        "type": null,
+        "timeInForce": null,
+        "postOnly": null,
+        "reduceOnly": null,
+        "side": null,
+        "price": null,
+        "triggerPrice": null,
+        "takeProfitPrice": null,
+        "stopLossPrice": null,
+        "amount": null,
+        "cost": null,
+        "average": null,
+        "filled": null,
+        "remaining": null,
+        "status": null,
+        "fee": null,
+        "trades": [],
+        "fees": [],
+        "stopPrice": null
+      }
+    },
+    "sell_order": {
+      "id": "1964798047003345664",
+      "symbol": "BTC/USDT",
+      "side": null,
+      "amount": "0",
+      "price": null,
+      "filled": "0",
+      "remaining": "0",
+      "status": "OrderStatus.PENDING",
+      "type": null,
+      "timestamp": null,
+      "datetime": null,
+      "fee": null,
+      "exchange": "bybit",
+      "raw": {
+        "info": {
+          "orderId": "1964798047003345664",
+          "orderLinkId": "1964798047003345665"
+        },
+        "id": "1964798047003345664",
+        "clientOrderId": "1964798047003345665",
+        "timestamp": null,
+        "datetime": null,
+        "lastTradeTimestamp": null,
+        "lastUpdateTimestamp": null,
+        "symbol": "BTC/USDT",
+        "type": null,
+        "timeInForce": null,
+        "postOnly": null,
+        "reduceOnly": null,
+        "side": null,
+        "price": null,
+        "triggerPrice": null,
+        "takeProfitPrice": null,
+        "stopLossPrice": null,
+        "amount": null,
+        "cost": null,
+        "average": null,
+        "filled": null,
+        "remaining": null,
+        "status": null,
+        "fee": null,
+        "trades": [],
+        "fees": [],
+        "stopPrice": null
+      }
+    },
+    "status": "completed",
+    "trades_fetched": 5,
+    "recent_trades": [
+      {
+        "id": "2290000000828784090",
+        "order_id": "1964798022667993856",
+        "symbol": "BTC/USDT",
+        "side": "buy",
+        "amount": "0.001",
+        "price": "105601.0",
+        "cost": "105.601",
+        "fee": {
+          "currency": "BTC",
+          "cost": 1e-06,
+          "rate": 0.001
+        },
+        "timestamp": 1748958176393,
+        "datetime": "2025-06-03T13:42:56.393Z",
+        "exchange": "bybit",
+        "raw": {
+          "id": "2290000000828784090",
+          "info": {
+            "symbol": "BTCUSDT",
+            "orderType": "Market",
+            "underlyingPrice": "",
+            "orderLinkId": "1964798022667993857",
+            "orderId": "1964798022667993856",
+            "stopOrderType": "",
+            "execTime": "1748958176393",
+            "feeCurrency": "BTC",
+            "feeRate": "0.001",
+            "tradeIv": "",
+            "blockTradeId": "",
+            "markPrice": "",
+            "execPrice": "105601",
+            "markIv": "",
+            "orderQty": "0.001",
+            "orderPrice": "106658.4",
+            "execValue": "105.601",
+            "closedSize": "",
+            "execType": "Trade",
+            "seq": "75795612411",
+            "side": "Buy",
+            "indexPrice": "",
+            "leavesQty": "0",
+            "isMaker": false,
+            "execFee": "0.000001",
+            "execId": "2290000000828784090",
+            "marketUnit": "baseCoin",
+            "execQty": "0.001",
+            "extraFees": ""
+          },
+          "timestamp": 1748958176393,
+          "datetime": "2025-06-03T13:42:56.393Z",
+          "symbol": "BTC/USDT",
+          "order": "1964798022667993856",
+          "type": "market",
+          "side": "buy",
+          "takerOrMaker": "taker",
+          "price": 105601.0,
+          "amount": 0.001,
+          "cost": 105.601,
+          "fee": {
+            "currency": "BTC",
+            "cost": 1e-06,
+            "rate": 0.001
+          },
+          "fees": [
+            {
+              "currency": "BTC",
+              "cost": 1e-06,
+              "rate": 0.001
+            }
+          ]
+        }
+      },
+      {
+        "id": "2290000000828784094",
+        "order_id": "1964798047003345664",
+        "symbol": "BTC/USDT",
+        "side": "sell",
+        "amount": "0.001",
+        "price": "105600.9",
+        "cost": "105.6009",
+        "fee": {
+          "currency": "USDT",
+          "cost": 0.1056009,
+          "rate": 0.001
+        },
+        "timestamp": 1748958179295,
+        "datetime": "2025-06-03T13:42:59.295Z",
+        "exchange": "bybit",
+        "raw": {
+          "id": "2290000000828784094",
+          "info": {
+            "symbol": "BTCUSDT",
+            "orderType": "Market",
+            "underlyingPrice": "",
+            "orderLinkId": "1964798047003345665",
+            "orderId": "1964798047003345664",
+            "stopOrderType": "",
+            "execTime": "1748958179295",
+            "feeCurrency": "USDT",
+            "feeRate": "0.001",
+            "tradeIv": "",
+            "blockTradeId": "",
+            "markPrice": "",
+            "execPrice": "105600.9",
+            "markIv": "",
+            "orderQty": "0.001",
+            "orderPrice": "104546.7",
+            "execValue": "105.6009",
+            "closedSize": "",
+            "execType": "Trade",
+            "seq": "75795615547",
+            "side": "Sell",
+            "indexPrice": "",
+            "leavesQty": "0",
+            "isMaker": false,
+            "execFee": "0.1056009",
+            "execId": "2290000000828784094",
+            "marketUnit": "baseCoin",
+            "execQty": "0.001",
+            "extraFees": "",
+            "nextPageCursor": "15368850%3A0%2C15368786%3A0"
+          },
+          "timestamp": 1748958179295,
+          "datetime": "2025-06-03T13:42:59.295Z",
+          "symbol": "BTC/USDT",
+          "order": "1964798047003345664",
+          "type": "market",
+          "side": "sell",
+          "takerOrMaker": "taker",
+          "price": 105600.9,
+          "amount": 0.001,
+          "cost": 105.6009,
+          "fee": {
+            "currency": "USDT",
+            "cost": 0.1056009,
+            "rate": 0.001
+          },
+          "fees": [
+            {
+              "currency": "USDT",
+              "cost": 0.1056009,
+              "rate": 0.001
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "mexc_spot": {
+    "market_price": 105622.645,
+    "bid_price": 105622.64,
+    "ask_price": 105622.65,
+    "status": "error",
+    "error": "mexc {\"code\":10007,\"msg\":\"symbol not support api\"}",
+    "trades_fetched": 0
+  },
+  "gateio_spot": {
+    "market_price": 105624.25,
+    "bid_price": 105624.2,
+    "ask_price": 105624.3,
+    "status": "error",
+    "error": "gateio createOrder() requires the price argument for market buy orders to calculate the total cost to spend(amount * price), alternatively set the createMarketBuyOrderRequiresPrice option or param to False and pass the cost to spend(quote quantity) in the amount argument",
+    "trades_fetched": 0
+  },
+  "bitget_spot": {
+    "market_price": 105612.415,
+    "bid_price": 105612.41,
+    "ask_price": 105612.42,
+    "status": "error",
+    "error": "bitget createOrder() requires the price argument for market buy orders to calculate the total cost to spend(amount * price), alternatively set the createMarketBuyOrderRequiresPrice option or param to False and pass the cost to spend in the amount argument",
+    "trades_fetched": 0
+  },
+  "hyperliquid_perp": {
+    "status": "skipped",
+    "trades_fetched": 0
+  }
+}

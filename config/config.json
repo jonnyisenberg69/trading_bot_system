@@ -1,0 +1,171 @@
+{
+    "exchanges": [
+        {
+            "name": "binance",
+            "type": "spot",
+            "api_key": "mcdiHnZKQbbq6yhTjp4rR93oA1rK1KQYqm4gjajwSojoJWdShU1R9L8mYrZWpkkX",
+            "api_secret": "ttwjMWgpNtzOC3gMBbhsMlF6JbHvqgiiwtVqd1TqBy8akExCnptpHm0Kg1C9yhEp",
+            "testnet": false,
+            "wallet_address": "",
+            "private_key": "",
+            "passphrase": ""
+        },
+        {
+            "name": "binance",
+            "type": "perp",
+            "api_key": "zeA9rKP1EQCLr7SkUHJiIkIpOp7KlE40XYG1R36zx0XmN87BUtO6oLHHKGaxXfYS",
+            "api_secret": "BV54UHT9gOEe5fFYjAkaHwPixuCXi0mpZiGbBhVOAmJEHXxEKIyWx10qXSL3onv5",
+            "testnet": false,
+            "wallet_address": "",
+            "private_key": "",
+            "passphrase": ""
+        },
+        {
+            "name": "bybit",
+            "type": "spot",
+            "api_key": "I1AS8daXDozAiv4zJ5",
+            "api_secret": "10kfpJChihGkFAxzTLgInzYkzm7zz9Q8iyNv",
+            "testnet": false,
+            "wallet_address": "",
+            "private_key": "",
+            "passphrase": ""
+        },
+        {
+            "name": "bybit",
+            "type": "perp",
+            "api_key": "ZBxruH0Als3Dif01IU",
+            "api_secret": "xLR07099AfnFhDgkTJukE9P7rycsRK2akO32",
+            "testnet": false,
+            "wallet_address": "",
+            "private_key": "",
+            "passphrase": ""
+        },
+        {
+            "name": "hyperliquid",
+            "type": "perp",
+            "api_key": "0x59a7eC7a658777225F7123B2c8420b6D5EC9D64d",
+            "api_secret": "d3fcbea614fdde189b1351ff9f9e0e1b65a3189d36d8fec402c4eae4a6f41064",
+            "testnet": false,
+            "wallet_address": "0x59a7eC7a658777225F7123B2c8420b6D5EC9D64d",
+            "private_key": "d3fcbea614fdde189b1351ff9f9e0e1b65a3189d36d8fec402c4eae4a6f41064",
+            "passphrase": ""
+        },
+        {
+            "name": "mexc",
+            "type": "spot",
+            "api_key": "mx0vglirnOU5nGgACu",
+            "api_secret": "3a6c6058a86c4816bb8149e77863f441",
+            "testnet": false,
+            "wallet_address": "",
+            "private_key": "",
+            "passphrase": ""
+        },
+        {
+            "name": "gateio",
+            "type": "spot",
+            "api_key": "8c12b0c10c26dddf6a55c5d7e8b1f415",
+            "api_secret": "5fc5ebca602f6ff4f74a289d175cd09c1172cc70e25970a0be96c702f8b8028a",
+            "testnet": false,
+            "wallet_address": "",
+            "private_key": "",
+            "passphrase": ""
+        },
+        {
+            "name": "bitget",
+            "type": "spot",
+            "api_key": "bg_b4b13f63073c7287a50d040d5cb76171",
+            "api_secret": "74f08cf05d7286257ef5a001391fbac8412ecf50490eb23838e2f02e0d2f9b39",
+            "testnet": false,
+            "wallet_address": "",
+            "private_key": "",
+            "passphrase": "bitgetpass"
+        }
+    ],
+    "database": {
+        "type": "sqlite",
+        "path": "data/trading_bot.db"
+    },
+    "position_tracking": {
+        "data_dir": "data/positions"
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "logs/trading_bot.log"
+    },
+    "strategies": {
+        "passive_quoting": {
+            "default_config": {
+                "base_coin": "BTC",
+                "quantity_currency": "base",
+                "exchanges": [
+                    "binance",
+                    "bybit"
+                ],
+                "lines": [
+                    {
+                        "timeout": 300,
+                        "drift": 50,
+                        "quantity": 0.01,
+                        "quantity_randomization_factor": 10,
+                        "spread": 25,
+                        "sides": "both"
+                    },
+                    {
+                        "timeout": 600,
+                        "drift": 100,
+                        "quantity": 0.005,
+                        "quantity_randomization_factor": 15,
+                        "spread": 50,
+                        "sides": "both"
+                    }
+                ]
+            },
+            "presets": {
+                "conservative": {
+                    "base_coin": "BTC",
+                    "quantity_currency": "base",
+                    "exchanges": [
+                        "binance"
+                    ],
+                    "lines": [
+                        {
+                            "timeout": 600,
+                            "drift": 100,
+                            "quantity": 0.001,
+                            "quantity_randomization_factor": 5,
+                            "spread": 100,
+                            "sides": "both"
+                        }
+                    ]
+                },
+                "aggressive": {
+                    "base_coin": "ETH",
+                    "quantity_currency": "quote",
+                    "exchanges": [
+                        "binance",
+                        "bybit",
+                        "mexc"
+                    ],
+                    "lines": [
+                        {
+                            "timeout": 60,
+                            "drift": 20,
+                            "quantity": 100,
+                            "quantity_randomization_factor": 20,
+                            "spread": 10,
+                            "sides": "both"
+                        },
+                        {
+                            "timeout": 120,
+                            "drift": 30,
+                            "quantity": 200,
+                            "quantity_randomization_factor": 25,
+                            "spread": 20,
+                            "sides": "both"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

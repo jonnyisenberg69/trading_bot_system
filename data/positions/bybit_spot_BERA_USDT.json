@@ -1,0 +1,17 @@
+{
+  "exchange": "bybit_spot",
+  "symbol": "BERA/USDT",
+  "is_perpetual": false,
+  "p1": -0.66,
+  "p2": 1.61637,
+  "p1_fee": 0.00465,
+  "p2_fee": 0.01296702,
+  "avg_price": 2.4686924545454545,
+  "size": -0.66,
+  "value": -1.61637,
+  "side": "short",
+  "is_open": true,
+  "last_update_time": "2025-06-05T08:41:03.168634",
+  "entry_time": "2025-06-05T08:41:03.167458",
+  "trade_count": 0
+}

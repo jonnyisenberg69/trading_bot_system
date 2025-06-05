@@ -1,0 +1,17 @@
+{
+  "exchange": "mexc_spot",
+  "symbol": "BERA/USDT",
+  "is_perpetual": false,
+  "p1": 74.77,
+  "p2": -43.64357,
+  "p1_fee": 0.0,
+  "p2_fee": 0.136,
+  "avg_price": 0.5818853818376354,
+  "size": 74.77,
+  "value": 43.64357,
+  "side": "long",
+  "is_open": true,
+  "last_update_time": "2025-06-05T08:41:10.728291",
+  "entry_time": "2025-06-05T08:39:50.938061",
+  "trade_count": 0
+}
