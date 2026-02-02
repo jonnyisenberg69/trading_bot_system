@@ -1,0 +1,151 @@
+{
+  "instance_id": "market_making_XAUTUSDT_1755757177",
+  "strategy": "market_making",
+  "symbol": "XAUT/USDT",
+  "exchanges": [
+    "hyperliquid_spot",
+    "bitfinex_spot"
+  ],
+  "config": {
+    "base_coin": "XAUT",
+    "quantity_currency": "base",
+    "reference_exchange": "bitfinex_spot",
+    "lines": [
+      {
+        "timeout": 3000,
+        "drift": 4,
+        "quantity": 0.01,
+        "quantity_randomization_factor": 0.5,
+        "spread": 25,
+        "sides": "both"
+      },
+      {
+        "timeout": 3000,
+        "drift": 8,
+        "quantity": 0.1,
+        "quantity_randomization_factor": 0.5,
+        "spread": 30,
+        "sides": "both"
+      },
+      {
+        "timeout": 3000,
+        "drift": 12,
+        "quantity": 0.2,
+        "quantity_randomization_factor": 0.5,
+        "spread": 40,
+        "sides": "both"
+      },
+      {
+        "timeout": 3000,
+        "drift": 10,
+        "quantity": 0.7,
+        "quantity_randomization_factor": 0.5,
+        "spread": 96,
+        "sides": "both"
+      },
+      {
+        "timeout": 3000,
+        "drift": 20,
+        "quantity": 1.5,
+        "quantity_randomization_factor": 0.5,
+        "spread": 240,
+        "sides": "both"
+      },
+      {
+        "timeout": 3000,
+        "drift": 8,
+        "quantity": 0.15,
+        "quantity_randomization_factor": 0.5,
+        "spread": 40,
+        "sides": "both"
+      },
+      {
+        "timeout": 3000,
+        "drift": 10,
+        "quantity": 0.3,
+        "quantity_randomization_factor": 0.5,
+        "spread": 56,
+        "sides": "both"
+      },
+      {
+        "timeout": 3000,
+        "drift": 10,
+        "quantity": 0.5,
+        "quantity_randomization_factor": 0.5,
+        "spread": 60,
+        "sides": "both"
+      },
+      {
+        "timeout": 3000,
+        "drift": 15,
+        "quantity": 0.85,
+        "quantity_randomization_factor": 0.5,
+        "spread": 80,
+        "sides": "both"
+      },
+      {
+        "timeout": 3000,
+        "drift": 16,
+        "quantity": 1,
+        "quantity_randomization_factor": 0.5,
+        "spread": 88,
+        "sides": "both"
+      },
+      {
+        "timeout": 3000,
+        "drift": 30,
+        "quantity": 1.75,
+        "quantity_randomization_factor": 0.5,
+        "spread": 320,
+        "sides": "both"
+      },
+      {
+        "timeout": 3000,
+        "drift": 4,
+        "quantity": 0.02,
+        "quantity_randomization_factor": 0.5,
+        "spread": 35,
+        "sides": "both"
+      },
+      {
+        "timeout": 3000,
+        "drift": 6,
+        "quantity": 0.03,
+        "quantity_randomization_factor": 0.5,
+        "spread": 36,
+        "sides": "both"
+      },
+      {
+        "timeout": 3000,
+        "drift": 6,
+        "quantity": 0.04,
+        "quantity_randomization_factor": 0.5,
+        "spread": 38,
+        "sides": "both"
+      },
+      {
+        "timeout": 3000,
+        "drift": 34,
+        "quantity": 0.65,
+        "quantity_randomization_factor": 10,
+        "spread": 340,
+        "sides": "both"
+      },
+      {
+        "timeout": 3000,
+        "drift": 14,
+        "quantity": 0.01,
+        "quantity_randomization_factor": 10,
+        "spread": 140,
+        "sides": "both"
+      }
+    ],
+    "max_position": "5.0",
+    "hedge_spread": "0"
+  },
+  "status": "running",
+  "started_at": "2025-08-26T22:29:48.483299+00:00",
+  "last_heartbeat": "2025-08-27T18:18:46.826218+00:00",
+  "error_message": null,
+  "uptime_seconds": 71338.342964
+}

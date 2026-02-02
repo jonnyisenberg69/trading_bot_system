@@ -1,0 +1,16 @@
+{
+  "symbol": "BERA/USDC:USDC",
+  "exchanges": [
+    {
+      "name": "hyperliquid",
+      "type": "perp",
+      "api_key": "0xccFBeA3725fd479D574863c85b933C17E4B40116",
+      "api_secret": "0xe0894c5fc0d90670844a348795669a6f29f43ff7849c911cc08d139711836fc9",
+      "testnet": false,
+      "wallet_address": "0xbA52b1BD928d1a471030d3D4F7BB1991c76679C4",
+      "private_key": "7918a7d4d79f79ac045ea54f7e1ee65c909113d1f742fd3247034a980f8c962c",
+      "passphrase": ""
+    }
+  ],
+  "redis_url": "redis://localhost:6379"
+}

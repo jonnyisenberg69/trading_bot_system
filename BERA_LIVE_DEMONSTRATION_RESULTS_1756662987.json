@@ -1,0 +1,27 @@
+{
+  "live_pairs": {
+    "BERA/USDT": [
+      "binance",
+      "mexc",
+      "bybit"
+    ],
+    "BERA/TRY": [
+      "binance"
+    ],
+    "BERA/USDC": [
+      "mexc",
+      "bybit",
+      "binance"
+    ],
+    "BERA/BTC": [
+      "binance"
+    ],
+    "BERA/BNB": [
+      "binance"
+    ],
+    "BERA/FDUSD": [
+      "binance"
+    ]
+  },
+  "websocket_stats": {
+    

@@ -1,0 +1,16 @@
+{
+  "symbol": "BERA/USDT",
+  "exchanges": [
+    {
+      "name": "gateio",
+      "type": "spot",
+      "api_key": "",
+      "api_secret": "",
+      "testnet": false,
+      "wallet_address": "",
+      "private_key": "",
+      "passphrase": ""
+    }
+  ],
+  "redis_url": "redis://localhost:6379"
+}

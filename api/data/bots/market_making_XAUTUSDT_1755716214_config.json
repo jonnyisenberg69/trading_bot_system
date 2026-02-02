@@ -1,0 +1,25 @@
+{
+  "strategy": "market_making",
+  "symbol": "XAUT/USDT",
+  "exchanges": [
+    "hyperliquid_spot",
+    "bitfinex_spot"
+  ],
+  "config": {
+    "base_coin": "XAUT",
+    "quantity_currency": "base",
+    "reference_exchange": "bitfinex_spot",
+    "lines": [
+      {
+        "timeout": 10,
+        "drift": 5,
+        "quantity": 0.01,
+        "quantity_randomization_factor": 0,
+        "spread": 150,
+        "sides": "both"
+      }
+    ],
+    "max_position": "0.15",
+    "hedge_spread": "12"
+  }
+}

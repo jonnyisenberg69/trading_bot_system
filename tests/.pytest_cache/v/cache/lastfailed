@@ -1,0 +1,4 @@
+{
+  "integration/test_websocket_integration.py::TestWebSocketIntegration::test_binance_websocket_connection": true,
+  "integration/test_order_flow.py": true
+}

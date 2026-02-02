@@ -1,0 +1,114 @@
+{
+  "instance_id": "passive_quoting_XAUTUSDT_1755890704",
+  "strategy": "passive_quoting",
+  "symbol": "XAUT/USDT",
+  "exchanges": [
+    "hyperliquid_spot"
+  ],
+  "config": {
+    "base_coin": "XAUT",
+    "quantity_currency": "base",
+    "exchanges": [
+      "hyperliquid_spot"
+    ],
+    "lines": [
+      {
+        "timeout": 3000,
+        "drift": 50,
+        "quantity": 0.45,
+        "quantity_randomization_factor": 0.5,
+        "spread": 500,
+        "sides": "both"
+      },
+      {
+        "id": 1755892593805.711,
+        "timeout": 3000,
+        "drift": 56,
+        "quantity": 0.65,
+        "quantity_randomization_factor": 0.5,
+        "spread": 556,
+        "sides": "both"
+      },
+      {
+        "id": 1755892619352.8093,
+        "timeout": 3000,
+        "drift": 61,
+        "quantity": 0.8,
+        "quantity_randomization_factor": 0.5,
+        "spread": 611,
+        "sides": "both"
+      },
+      {
+        "id": 1755892639560.2197,
+        "timeout": 3000,
+        "drift": 67,
+        "quantity": 1.1,
+        "quantity_randomization_factor": 0.5,
+        "spread": 667,
+        "sides": "both"
+      },
+      {
+        "id": 1755892658278.5654,
+        "timeout": 3000,
+        "drift": 72,
+        "quantity": 1.3,
+        "quantity_randomization_factor": 0.5,
+        "spread": 722,
+        "sides": "both"
+      },
+      {
+        "id": 1755892681455.5854,
+        "timeout": 3000,
+        "drift": 78,
+        "quantity": 1.5,
+        "quantity_randomization_factor": 0.5,
+        "spread": 778,
+        "sides": "both"
+      },
+      {
+        "id": 1755892716139.0393,
+        "timeout": 3000,
+        "drift": 83,
+        "quantity": 1.6,
+        "quantity_randomization_factor": 0.5,
+        "spread": 833,
+        "sides": "both"
+      },
+      {
+        "id": 1755892716744.2524,
+        "timeout": 3000,
+        "drift": 89,
+        "quantity": 1.8,
+        "quantity_randomization_factor": 0.5,
+        "spread": 889,
+        "sides": "both"
+      },
+      {
+        "id": 1755892717402.5344,
+        "timeout": 3000,
+        "drift": 94,
+        "quantity": 1.898,
+        "quantity_randomization_factor": 0.5,
+        "spread": 944,
+        "sides": "both"
+      },
+      {
+        "id": 1755892720546.8123,
+        "timeout": 3000,
+        "drift": 100,
+        "quantity": 2.8,
+        "quantity_randomization_factor": 0.5,
+        "spread": 1000,
+        "sides": "both"
+      }
+    ],
+    "exchange_symbols": {
+      "hyperliquid_spot": "XAUT/USDT"
+    }
+  },
+  "status": "running",
+  "started_at": "2025-08-26T23:53:57.044552+00:00",
+  "last_heartbeat": "2025-08-27T18:18:46.826726+00:00",
+  "error_message": null,
+  "uptime_seconds": 66289.782196
+}

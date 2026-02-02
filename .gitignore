@@ -1,0 +1,13 @@
+node_modules/
+__pycache__/
+*.pyc
+venv/
+logs/
+*.log
+.env
+.DS_Store
+backups/
+*.egg-info/
+build/
+frontend/build/
+market_data_collection/

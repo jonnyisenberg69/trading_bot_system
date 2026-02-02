@@ -1,0 +1,9 @@
+[
+  "integration/test_websocket_integration.py::TestOrderbookStabilityAndAccuracy::test_orderbook_consistency",
+  "integration/test_websocket_integration.py::TestOrderbookStabilityAndAccuracy::test_rest_vs_websocket_comparison",
+  "integration/test_websocket_integration.py::TestWebSocketIntegration::test_binance_websocket_connection",
+  "integration/test_websocket_integration.py::TestWebSocketIntegration::test_bybit_websocket_connection",
+  "integration/test_websocket_integration.py::TestWebSocketIntegration::test_cross_exchange_orderbooks",
+  "integration/test_websocket_integration.py::TestWebSocketIntegration::test_orderbook_update_performance",
+  "integration/test_websocket_integration.py::TestWebSocketIntegration::test_orderbook_updates"
+]

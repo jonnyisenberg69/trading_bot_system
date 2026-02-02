@@ -1,0 +1,284 @@
+[
+  {
+    "symbol": "BERA/USDT",
+    "exchanges": [
+      "binance",
+      "bybit",
+      "mexc"
+    ],
+    "config_name": "Conservative_Small",
+    "status": "success",
+    "error": null,
+    "orders_placed": 0,
+    "orders_cancelled": 0,
+    "cycles_completed": 0,
+    "inventory_coefficient": null,
+    "volume_coefficient": null,
+    "pricing_data": null
+  },
+  {
+    "symbol": "BERA/USDT",
+    "exchanges": [
+      "binance",
+      "bybit",
+      "mexc"
+    ],
+    "config_name": "Aggressive_Large",
+    "status": "success",
+    "error": null,
+    "orders_placed": 0,
+    "orders_cancelled": 0,
+    "cycles_completed": 0,
+    "inventory_coefficient": null,
+    "volume_coefficient": null,
+    "pricing_data": null
+  },
+  {
+    "symbol": "BERA/USDT",
+    "exchanges": [
+      "binance",
+      "bybit",
+      "mexc"
+    ],
+    "config_name": "Balanced_Mixed",
+    "status": "success",
+    "error": null,
+    "orders_placed": 0,
+    "orders_cancelled": 0,
+    "cycles_completed": 0,
+    "inventory_coefficient": null,
+    "volume_coefficient": null,
+    "pricing_data": null
+  },
+  {
+    "symbol": "BERA/TRY",
+    "exchanges": [
+      "binance"
+    ],
+    "config_name": "Conservative_Small",
+    "status": "success",
+    "error": null,
+    "orders_placed": 0,
+    "orders_cancelled": 0,
+    "cycles_completed": 0,
+    "inventory_coefficient": null,
+    "volume_coefficient": null,
+    "pricing_data": null
+  },
+  {
+    "symbol": "BERA/TRY",
+    "exchanges": [
+      "binance"
+    ],
+    "config_name": "Aggressive_Large",
+    "status": "success",
+    "error": null,
+    "orders_placed": 0,
+    "orders_cancelled": 0,
+    "cycles_completed": 0,
+    "inventory_coefficient": null,
+    "volume_coefficient": null,
+    "pricing_data": null
+  },
+  {
+    "symbol": "BERA/TRY",
+    "exchanges": [
+      "binance"
+    ],
+    "config_name": "Balanced_Mixed",
+    "status": "success",
+    "error": null,
+    "orders_placed": 0,
+    "orders_cancelled": 0,
+    "cycles_completed": 0,
+    "inventory_coefficient": null,
+    "volume_coefficient": null,
+    "pricing_data": null
+  },
+  {
+    "symbol": "BERA/USDC",
+    "exchanges": [
+      "binance",
+      "bybit",
+      "mexc"
+    ],
+    "config_name": "Conservative_Small",
+    "status": "success",
+    "error": null,
+    "orders_placed": 0,
+    "orders_cancelled": 0,
+    "cycles_completed": 0,
+    "inventory_coefficient": null,
+    "volume_coefficient": null,
+    "pricing_data": null
+  },
+  {
+    "symbol": "BERA/USDC",
+    "exchanges": [
+      "binance",
+      "bybit",
+      "mexc"
+    ],
+    "config_name": "Aggressive_Large",
+    "status": "success",
+    "error": null,
+    "orders_placed": 0,
+    "orders_cancelled": 0,
+    "cycles_completed": 0,
+    "inventory_coefficient": null,
+    "volume_coefficient": null,
+    "pricing_data": null
+  },
+  {
+    "symbol": "BERA/USDC",
+    "exchanges": [
+      "binance",
+      "bybit",
+      "mexc"
+    ],
+    "config_name": "Balanced_Mixed",
+    "status": "success",
+    "error": null,
+    "orders_placed": 0,
+    "orders_cancelled": 0,
+    "cycles_completed": 0,
+    "inventory_coefficient": null,
+    "volume_coefficient": null,
+    "pricing_data": null
+  },
+  {
+    "symbol": "BERA/BTC",
+    "exchanges": [
+      "binance"
+    ],
+    "config_name": "Conservative_Small",
+    "status": "success",
+    "error": null,
+    "orders_placed": 0,
+    "orders_cancelled": 0,
+    "cycles_completed": 0,
+    "inventory_coefficient": null,
+    "volume_coefficient": null,
+    "pricing_data": null
+  },
+  {
+    "symbol": "BERA/BTC",
+    "exchanges": [
+      "binance"
+    ],
+    "config_name": "Aggressive_Large",
+    "status": "success",
+    "error": null,
+    "orders_placed": 0,
+    "orders_cancelled": 0,
+    "cycles_completed": 0,
+    "inventory_coefficient": null,
+    "volume_coefficient": null,
+    "pricing_data": null
+  },
+  {
+    "symbol": "BERA/BTC",
+    "exchanges": [
+      "binance"
+    ],
+    "config_name": "Balanced_Mixed",
+    "status": "success",
+    "error": null,
+    "orders_placed": 0,
+    "orders_cancelled": 0,
+    "cycles_completed": 0,
+    "inventory_coefficient": null,
+    "volume_coefficient": null,
+    "pricing_data": null
+  },
+  {
+    "symbol": "BERA/BNB",
+    "exchanges": [
+      "binance"
+    ],
+    "config_name": "Conservative_Small",
+    "status": "success",
+    "error": null,
+    "orders_placed": 0,
+    "orders_cancelled": 0,
+    "cycles_completed": 0,
+    "inventory_coefficient": null,
+    "volume_coefficient": null,
+    "pricing_data": null
+  },
+  {
+    "symbol": "BERA/BNB",
+    "exchanges": [
+      "binance"
+    ],
+    "config_name": "Aggressive_Large",
+    "status": "success",
+    "error": null,
+    "orders_placed": 0,
+    "orders_cancelled": 0,
+    "cycles_completed": 0,
+    "inventory_coefficient": null,
+    "volume_coefficient": null,
+    "pricing_data": null
+  },
+  {
+    "symbol": "BERA/BNB",
+    "exchanges": [
+      "binance"
+    ],
+    "config_name": "Balanced_Mixed",
+    "status": "success",
+    "error": null,
+    "orders_placed": 0,
+    "orders_cancelled": 0,
+    "cycles_completed": 0,
+    "inventory_coefficient": null,
+    "volume_coefficient": null,
+    "pricing_data": null
+  },
+  {
+    "symbol": "BERA/FDUSD",
+    "exchanges": [
+      "binance"
+    ],
+    "config_name": "Conservative_Small",
+    "status": "success",
+    "error": null,
+    "orders_placed": 0,
+    "orders_cancelled": 0,
+    "cycles_completed": 0,
+    "inventory_coefficient": null,
+    "volume_coefficient": null,
+    "pricing_data": null
+  },
+  {
+    "symbol": "BERA/FDUSD",
+    "exchanges": [
+      "binance"
+    ],
+    "config_name": "Aggressive_Large",
+    "status": "success",
+    "error": null,
+    "orders_placed": 0,
+    "orders_cancelled": 0,
+    "cycles_completed": 0,
+    "inventory_coefficient": null,
+    "volume_coefficient": null,
+    "pricing_data": null
+  },
+  {
+    "symbol": "BERA/FDUSD",
+    "exchanges": [
+      "binance"
+    ],
+    "config_name": "Balanced_Mixed",
+    "status": "success",
+    "error": null,
+    "orders_placed": 0,
+    "orders_cancelled": 0,
+    "cycles_completed": 0,
+    "inventory_coefficient": null,
+    "volume_coefficient": null,
+    "pricing_data": null
+  }
+]

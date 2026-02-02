@@ -1,0 +1,377 @@
+{
+  "binance_trades": [
+    {
+      "id": "binance_trade_001",
+      "order_id": "binance_order_001",
+      "symbol": "BTC/USDT",
+      "side": "buy",
+      "amount": "0.10000000",
+      "price": "47500.50",
+      "cost": "4750.05",
+      "fee": {
+        "currency": "USDT",
+        "cost": "4.75005"
+      },
+      "timestamp": 1640995200000,
+      "datetime": "2022-01-01T00:00:00.000Z",
+      "exchange": "binance"
+    },
+    {
+      "id": "binance_trade_002",
+      "order_id": "binance_order_002",
+      "symbol": "ETH/USDT",
+      "side": "sell",
+      "amount": "1.50000000",
+      "price": "3750.25",
+      "cost": "5625.375",
+      "fee": {
+        "currency": "USDT",
+        "cost": "5.625375"
+      },
+      "timestamp": 1640995260000,
+      "datetime": "2022-01-01T00:01:00.000Z",
+      "exchange": "binance"
+    }
+  ],
+  "bybit_trades": [
+    {
+      "id": "bybit_trade_001",
+      "order_id": "bybit_order_001",
+      "symbol": "BTC/USDT",
+      "side": "buy",
+      "amount": "0.05000000",
+      "price": "47499.75",
+      "cost": "2374.9875",
+      "fee": {
+        "currency": "USDT",
+        "cost": "2.3749875"
+      },
+      "timestamp": 1640995320000,
+      "datetime": "2022-01-01T00:02:00.000Z",
+      "exchange": "bybit"
+    },
+    {
+      "id": "bybit_trade_002",
+      "order_id": "bybit_order_002",
+      "symbol": "ETH/USDT",
+      "side": "sell",
+      "amount": "2.00000000",
+      "price": "3749.80",
+      "cost": "7499.60",
+      "fee": {
+        "currency": "USDT",
+        "cost": "7.4996"
+      },
+      "timestamp": 1640995380000,
+      "datetime": "2022-01-01T00:03:00.000Z",
+      "exchange": "bybit"
+    }
+  ],
+  "hyperliquid_trades": [
+    {
+      "id": "hyperliquid_trade_001",
+      "order_id": "hyperliquid_order_001",
+      "symbol": "BTC/USD:USD",
+      "side": "buy",
+      "amount": "0.20000000",
+      "price": "47498.00",
+      "cost": "9499.60",
+      "fee": {
+        "currency": "USD",
+        "cost": "4.74980"
+      },
+      "timestamp": 1640995440000,
+      "datetime": "2022-01-01T00:04:00.000Z",
+      "exchange": "hyperliquid"
+    }
+  ],
+  "mexc_trades": [
+    {
+      "id": "mexc_trade_001",
+      "order_id": "mexc_order_001",
+      "symbol": "BTC/USDT",
+      "side": "sell",
+      "amount": "0.08000000",
+      "price": "47501.25",
+      "cost": "3800.10",
+      "fee": {
+        "currency": "USDT",
+        "cost": "3.80010"
+      },
+      "timestamp": 1640995500000,
+      "datetime": "2022-01-01T00:05:00.000Z",
+      "exchange": "mexc"
+    }
+  ],
+  "gateio_trades": [
+    {
+      "id": "gateio_trade_001",
+      "order_id": "gateio_order_001",
+      "symbol": "BTC/USDT",
+      "side": "buy",
+      "amount": "0.15000000",
+      "price": "47502.75",
+      "cost": "7125.4125",
+      "fee": {
+        "currency": "USDT",
+        "cost": "7.1254125"
+      },
+      "timestamp": 1640995560000,
+      "datetime": "2022-01-01T00:06:00.000Z",
+      "exchange": "gateio"
+    }
+  ],
+  "bitget_trades": [
+    {
+      "id": "bitget_trade_001",
+      "order_id": "bitget_order_001",
+      "symbol": "ETH/USDT",
+      "side": "buy",
+      "amount": "3.00000000",
+      "price": "3751.50",
+      "cost": "11254.50",
+      "fee": {
+        "currency": "USDT",
+        "cost": "11.2545"
+      },
+      "timestamp": 1640995620000,
+      "datetime": "2022-01-01T00:07:00.000Z",
+      "exchange": "bitget"
+    }
+  ],
+  "high_frequency_trades": [
+    {
+      "id": "hft_trade_001",
+      "order_id": "hft_order_001",
+      "symbol": "BTC/USDT",
+      "side": "buy",
+      "amount": "0.001",
+      "price": "47500.12",
+      "cost": "47.50012",
+      "fee": {
+        "currency": "USDT",
+        "cost": "0.04750012"
+      },
+      "timestamp": 1640995680000,
+      "datetime": "2022-01-01T00:08:00.000Z",
+      "exchange": "binance"
+    },
+    {
+      "id": "hft_trade_002",
+      "order_id": "hft_order_002",
+      "symbol": "BTC/USDT",
+      "side": "sell",
+      "amount": "0.001",
+      "price": "47500.88",
+      "cost": "47.50088",
+      "fee": {
+        "currency": "USDT",
+        "cost": "0.04750088"
+      },
+      "timestamp": 1640995681000,
+      "datetime": "2022-01-01T00:08:01.000Z",
+      "exchange": "binance"
+    },
+    {
+      "id": "hft_trade_003",
+      "order_id": "hft_order_003",
+      "symbol": "BTC/USDT",
+      "side": "buy",
+      "amount": "0.001",
+      "price": "47500.34",
+      "cost": "47.50034",
+      "fee": {
+        "currency": "USDT",
+        "cost": "0.04750034"
+      },
+      "timestamp": 1640995682000,
+      "datetime": "2022-01-01T00:08:02.000Z",
+      "exchange": "bybit"
+    }
+  ],
+  "large_trades": [
+    {
+      "id": "whale_trade_001",
+      "order_id": "whale_order_001",
+      "symbol": "BTC/USDT",
+      "side": "buy",
+      "amount": "100.00000000",
+      "price": "47495.00",
+      "cost": "4749500.00",
+      "fee": {
+        "currency": "USDT",
+        "cost": "4749.50"
+      },
+      "timestamp": 1640995740000,
+      "datetime": "2022-01-01T00:09:00.000Z",
+      "exchange": "binance"
+    },
+    {
+      "id": "whale_trade_002",
+      "order_id": "whale_order_002",
+      "symbol": "ETH/USDT",
+      "side": "sell",
+      "amount": "500.00000000",
+      "price": "3748.75",
+      "cost": "1874375.00",
+      "fee": {
+        "currency": "USDT",
+        "cost": "1874.375"
+      },
+      "timestamp": 1640995800000,
+      "datetime": "2022-01-01T00:10:00.000Z",
+      "exchange": "bybit"
+    }
+  ],
+  "failed_trades": [
+    {
+      "id": "failed_trade_001",
+      "order_id": "failed_order_001",
+      "symbol": "BTC/USDT",
+      "side": "buy",
+      "amount": "0.10000000",
+      "price": "47500.00",
+      "cost": null,
+      "fee": null,
+      "timestamp": 1640995860000,
+      "datetime": "2022-01-01T00:11:00.000Z",
+      "exchange": "binance",
+      "error": "Insufficient balance",
+      "status": "rejected"
+    }
+  ],
+  "partial_fills": [
+    {
+      "id": "partial_trade_001",
+      "order_id": "partial_order_001",
+      "symbol": "BTC/USDT",
+      "side": "buy",
+      "amount": "0.05000000",
+      "price": "47500.00",
+      "cost": "2375.00",
+      "fee": {
+        "currency": "USDT",
+        "cost": "2.375"
+      },
+      "timestamp": 1640995920000,
+      "datetime": "2022-01-01T00:12:00.000Z",
+      "exchange": "binance",
+      "remaining": "0.05000000",
+      "status": "partially_filled"
+    },
+    {
+      "id": "partial_trade_002",
+      "order_id": "partial_order_001",
+      "symbol": "BTC/USDT",
+      "side": "buy",
+      "amount": "0.03000000",
+      "price": "47500.25",
+      "cost": "1425.0075",
+      "fee": {
+        "currency": "USDT",
+        "cost": "1.4250075"
+      },
+      "timestamp": 1640995980000,
+      "datetime": "2022-01-01T00:13:00.000Z",
+      "exchange": "binance",
+      "remaining": "0.02000000",
+      "status": "partially_filled"
+    },
+    {
+      "id": "partial_trade_003",
+      "order_id": "partial_order_001",
+      "symbol": "BTC/USDT",
+      "side": "buy",
+      "amount": "0.02000000",
+      "price": "47500.50",
+      "cost": "950.01",
+      "fee": {
+        "currency": "USDT",
+        "cost": "0.95001"
+      },
+      "timestamp": 1640996040000,
+      "datetime": "2022-01-01T00:14:00.000Z",
+      "exchange": "binance",
+      "remaining": "0.00000000",
+      "status": "filled"
+    }
+  ],
+  "cross_exchange_arbitrage": [
+    {
+      "id": "arb_buy_001",
+      "order_id": "arb_order_001",
+      "symbol": "BTC/USDT",
+      "side": "buy",
+      "amount": "0.50000000",
+      "price": "47495.00",
+      "cost": "23747.50",
+      "fee": {
+        "currency": "USDT",
+        "cost": "23.7475"
+      },
+      "timestamp": 1640996100000,
+      "datetime": "2022-01-01T00:15:00.000Z",
+      "exchange": "binance",
+      "strategy": "arbitrage",
+      "leg": "buy"
+    },
+    {
+      "id": "arb_sell_001",
+      "order_id": "arb_order_002",
+      "symbol": "BTC/USDT",
+      "side": "sell",
+      "amount": "0.50000000",
+      "price": "47505.00",
+      "cost": "23752.50",
+      "fee": {
+        "currency": "USDT",
+        "cost": "23.7525"
+      },
+      "timestamp": 1640996102000,
+      "datetime": "2022-01-01T00:15:02.000Z",
+      "exchange": "bybit",
+      "strategy": "arbitrage",
+      "leg": "sell",
+      "profit": "5.00"
+    }
+  ],
+  "market_making_trades": [
+    {
+      "id": "mm_trade_001",
+      "order_id": "mm_order_001",
+      "symbol": "BTC/USDT",
+      "side": "buy",
+      "amount": "0.25000000",
+      "price": "47498.00",
+      "cost": "11874.50",
+      "fee": {
+        "currency": "USDT",
+        "cost": "11.8745"
+      },
+      "timestamp": 1640996160000,
+      "datetime": "2022-01-01T00:16:00.000Z",
+      "exchange": "binance",
+      "strategy": "market_making",
+      "spread": "2.00"
+    },
+    {
+      "id": "mm_trade_002",
+      "order_id": "mm_order_002",
+      "symbol": "BTC/USDT",
+      "side": "sell",
+      "amount": "0.25000000",
+      "price": "47502.00",
+      "cost": "11875.50",
+      "fee": {
+        "currency": "USDT",
+        "cost": "11.8755"
+      },
+      "timestamp": 1640996220000,
+      "datetime": "2022-01-01T00:17:00.000Z",
+      "exchange": "binance",
+      "strategy": "market_making",
+      "spread": "2.00",
+      "profit": "1.00"
+    }
+  ]
+}

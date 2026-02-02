@@ -1,0 +1,85 @@
+{
+  "strategy": "stacked_market_making",
+  "symbol": "BERA/USDT",
+  "exchanges": [
+    "binance_spot",
+    "binance_perp",
+    "bybit_spot",
+    "bybit_perp",
+    "mexc_spot",
+    "gateio_spot",
+    "bitget_spot",
+    "hyperliquid_perp"
+  ],
+  "config": {
+    "base_coin": "BERA",
+    "quote_currencies": [
+      "USDC",
+      "TRY",
+      "BNB",
+      "ETH",
+      "BTC",
+      "FDUSD"
+    ],
+    "inventory": {
+      "target_inventory": "4000000",
+      "max_inventory_deviation": "0",
+      "inventory_price_method": "accounting",
+      "manual_inventory_price": null,
+      "start_time": "2025-06-18T11:27"
+    },
+    "tob_lines": [],
+    "passive_lines": [
+      {
+        "line_id": 0,
+        "mid_spread_bps": "200",
+        "quantity": "100",
+        "sides": "both",
+        "spread_coefficient_method": "inventory",
+        "quantity_coefficient_method": "volume",
+        "min_spread_bps": "195",
+        "max_spread_bps": "300",
+        "drift_bps": "10",
+        "timeout_seconds": 15,
+        "randomization_factor": "0.05"
+      },
+      {
+        "line_id": 1,
+        "mid_spread_bps": "300",
+        "quantity": "100",
+        "sides": "both",
+        "spread_coefficient_method": "inventory",
+        "quantity_coefficient_method": "volume",
+        "min_spread_bps": "280",
+        "max_spread_bps": "500",
+        "drift_bps": "20",
+        "timeout_seconds": 30,
+        "randomization_factor": "0.05"
+      }
+    ],
+    "time_periods": [
+      "1min",
+      "30s",
+      "5min"
+    ],
+    "coefficient_method": "min",
+    "min_coefficient": 0.95,
+    "max_coefficient": 2,
+    "smart_pricing_source": "aggregated",
+    "taker_check": true,
+    "hedging_enabled": false,
+    "hedging_targets": {
+      "BTC": "0.261",
+      "BNB": "33.35",
+      "TRY": "1200000",
+      "USDC": "30000",
+      "FDUSD": "30000"
+    },
+    "leverage": "5.0",
+    "moving_average_periods": [
+      5,
+      15,
+      60
+    ]
+  }
+}

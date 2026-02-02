@@ -1,0 +1,275 @@
+[
+  {
+    "symbol": "BERA/TRY",
+    "exchange": "binance_spot",
+    "config_name": "Conservative_Small_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/TRY",
+    "exchange": "binance_spot",
+    "config_name": "Aggressive_Large_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/TRY",
+    "exchange": "binance_spot",
+    "config_name": "Balanced_Mixed_Lines",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/BTC",
+    "exchange": "binance_spot",
+    "config_name": "Conservative_Small_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/BTC",
+    "exchange": "binance_spot",
+    "config_name": "Aggressive_Large_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/BTC",
+    "exchange": "binance_spot",
+    "config_name": "Balanced_Mixed_Lines",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDT",
+    "exchange": "binance_spot",
+    "config_name": "Conservative_Small_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDT",
+    "exchange": "binance_spot",
+    "config_name": "Aggressive_Large_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDT",
+    "exchange": "binance_spot",
+    "config_name": "Balanced_Mixed_Lines",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDC",
+    "exchange": "binance_spot",
+    "config_name": "Conservative_Small_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDC",
+    "exchange": "binance_spot",
+    "config_name": "Aggressive_Large_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDC",
+    "exchange": "binance_spot",
+    "config_name": "Balanced_Mixed_Lines",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/FDUSD",
+    "exchange": "binance_spot",
+    "config_name": "Conservative_Small_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/FDUSD",
+    "exchange": "binance_spot",
+    "config_name": "Aggressive_Large_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/FDUSD",
+    "exchange": "binance_spot",
+    "config_name": "Balanced_Mixed_Lines",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/BNB",
+    "exchange": "binance_spot",
+    "config_name": "Conservative_Small_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/BNB",
+    "exchange": "binance_spot",
+    "config_name": "Aggressive_Large_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/BNB",
+    "exchange": "binance_spot",
+    "config_name": "Balanced_Mixed_Lines",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDC",
+    "exchange": "hyperliquid_perp",
+    "config_name": "Conservative_Small_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDC",
+    "exchange": "hyperliquid_perp",
+    "config_name": "Aggressive_Large_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDC",
+    "exchange": "hyperliquid_perp",
+    "config_name": "Balanced_Mixed_Lines",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDT",
+    "exchange": "bybit_spot",
+    "config_name": "Conservative_Small_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDT",
+    "exchange": "bybit_spot",
+    "config_name": "Aggressive_Large_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDT",
+    "exchange": "bybit_spot",
+    "config_name": "Balanced_Mixed_Lines",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDC",
+    "exchange": "bybit_spot",
+    "config_name": "Conservative_Small_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDC",
+    "exchange": "bybit_spot",
+    "config_name": "Aggressive_Large_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDC",
+    "exchange": "bybit_spot",
+    "config_name": "Balanced_Mixed_Lines",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDC",
+    "exchange": "mexc_spot",
+    "config_name": "Conservative_Small_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDC",
+    "exchange": "mexc_spot",
+    "config_name": "Aggressive_Large_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDC",
+    "exchange": "mexc_spot",
+    "config_name": "Balanced_Mixed_Lines",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDT",
+    "exchange": "mexc_spot",
+    "config_name": "Conservative_Small_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDT",
+    "exchange": "mexc_spot",
+    "config_name": "Aggressive_Large_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDT",
+    "exchange": "mexc_spot",
+    "config_name": "Balanced_Mixed_Lines",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDT",
+    "exchange": "bitget_spot",
+    "config_name": "Conservative_Small_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDT",
+    "exchange": "bitget_spot",
+    "config_name": "Aggressive_Large_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDT",
+    "exchange": "bitget_spot",
+    "config_name": "Balanced_Mixed_Lines",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDT",
+    "exchange": "gateio_spot",
+    "config_name": "Conservative_Small_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDT",
+    "exchange": "gateio_spot",
+    "config_name": "Aggressive_Large_Inventory",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  },
+  {
+    "symbol": "BERA/USDT",
+    "exchange": "gateio_spot",
+    "config_name": "Balanced_Mixed_Lines",
+    "status": "failed",
+    "error": "No module named 'websockets'"
+  }
+]
