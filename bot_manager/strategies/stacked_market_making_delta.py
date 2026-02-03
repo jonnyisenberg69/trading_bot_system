@@ -119,13 +119,21 @@ class StackedMarketMakingConfig:
     max_coefficient: float = 3.0
 
     # Delta targeting safeguards
-    target_inventory_source: str = "manual"  # "manual" or "delta_calc"
+    target_inventory_source: str = "manual"  # "manual", "delta_calc", or "bera_vol_api"
     delta_service_url: str = "http://127.0.0.1:8085"
     delta_refresh_seconds: float = 5.0
     delta_change_threshold_pct: float = 0.025
     delta_trade_fraction: float = 0.1
     delta_target_sign: float = -1.0
     prevent_unprofitable_trades: bool = False
+    
+    # BERA_VOL_API option signal integration
+    # When using bera_vol_api as target_inventory_source:
+    # - Call option (call_size) -> reduces buying capacity (we can exercise call to buy)
+    # - Put option (put_size) -> increases buying capacity (we can exercise put to sell)
+    bera_vol_api_url: str = "http://127.0.0.1:6060"
+    option_strike_price: Optional[float] = None  # Strike price for option pricing
+    option_base_inventory: float = 0.0  # Base inventory before option adjustments
 
 
 @dataclass
@@ -381,6 +389,10 @@ class StackedMarketMakingStrategy(BaseStrategy):
             delta_trade_fraction=float(config_dict.get('delta_trade_fraction', 0.1)),
             delta_target_sign=float(config_dict.get('delta_target_sign', -1.0)),
             prevent_unprofitable_trades=bool(config_dict.get('prevent_unprofitable_trades', False)),
+            # BERA_VOL_API option signal integration
+            bera_vol_api_url=config_dict.get('bera_vol_api_url', 'http://127.0.0.1:6060'),
+            option_strike_price=config_dict.get('option_strike_price'),
+            option_base_inventory=float(config_dict.get('option_base_inventory', 0.0)),
         )
 
     async def _start_strategy(self) -> None:
@@ -552,7 +564,13 @@ class StackedMarketMakingStrategy(BaseStrategy):
         # await self._calculate_real_inventory_from_database()
 
     async def _fetch_delta_snapshot(self) -> Optional[Dict[str, Any]]:
-        """Fetch delta snapshot from the delta service."""
+        """Fetch delta snapshot from the delta service or BERA_VOL_API."""
+        
+        # Use BERA_VOL_API if configured
+        if self.strategy_config.target_inventory_source == "bera_vol_api":
+            return await self._fetch_bera_vol_option_signal()
+        
+        # Legacy delta service
         url = f"{self.strategy_config.delta_service_url.rstrip('/')}/delta"
         try:
             timeout = aiohttp.ClientTimeout(total=5)
@@ -569,12 +587,89 @@ class StackedMarketMakingStrategy(BaseStrategy):
         except Exception as exc:
             self.logger.warning(f"Delta fetch failed: {exc}")
             return None
+    
+    async def _fetch_bera_vol_option_signal(self) -> Optional[Dict[str, Any]]:
+        """
+        Fetch option signal from BERA_VOL_API /otc/pricing endpoint.
+        
+        Returns a dict with:
+        - call_size: Amount we can buy less (call option protection)
+        - put_size: Amount we can buy more (put option protection)
+        - total_target_inventory: Computed target based on option signals
+        """
+        base_url = self.strategy_config.bera_vol_api_url.rstrip('/')
+        
+        # Build URL with optional strike price
+        params = {}
+        if self.strategy_config.option_strike_price:
+            params['strike'] = str(self.strategy_config.option_strike_price)
+        
+        url = f"{base_url}/otc/pricing"
+        if params:
+            url += "?" + "&".join(f"{k}={v}" for k, v in params.items())
+        
+        try:
+            timeout = aiohttp.ClientTimeout(total=5)
+            async with aiohttp.ClientSession(timeout=timeout) as session:
+                async with session.get(url) as response:
+                    if response.status != 200:
+                        self.logger.warning(f"BERA_VOL_API returned {response.status} for {url}")
+                        return None
+                    
+                    data = await response.json()
+                    
+                    # Extract option metrics
+                    option_metrics = data.get("option_metrics", {})
+                    call_size = float(option_metrics.get("call_size", 0) or 0)
+                    put_size = float(option_metrics.get("put_size", 0) or 0)
+                    call_delta = float(option_metrics.get("call_delta", 0) or 0)
+                    put_delta = float(option_metrics.get("put_delta", 0) or 0)
+                    
+                    # Calculate target inventory adjustment based on option signals:
+                    # - Call option (call_size): We have the right to BUY at strike
+                    #   -> Reduces our need to buy in spot market
+                    # - Put option (put_size): We have the right to SELL at strike
+                    #   -> Increases our ability to accumulate (we can offload via put)
+                    base_inventory = float(self.strategy_config.option_base_inventory)
+                    
+                    # Net adjustment: put_size increases target, call_size decreases target
+                    option_adjustment = put_size - call_size
+                    total_target_inventory = base_inventory + option_adjustment
+                    
+                    self.logger.info(
+                        f"BERA_VOL_API option signal: call_size={call_size:.4f}, put_size={put_size:.4f}, "
+                        f"call_delta={call_delta:.4f}, put_delta={put_delta:.4f}, "
+                        f"base_inv={base_inventory:.4f}, adjustment={option_adjustment:.4f}, "
+                        f"target={total_target_inventory:.4f}"
+                    )
+                    
+                    return {
+                        "total_target_inventory": str(total_target_inventory),
+                        "call_size": call_size,
+                        "put_size": put_size,
+                        "call_delta": call_delta,
+                        "put_delta": put_delta,
+                        "option_adjustment": option_adjustment,
+                        "base_amount": str(abs(option_adjustment)),  # For threshold calc
+                        "premium_amount": "0",
+                        "source": "bera_vol_api",
+                        "raw_response": data
+                    }
+                    
+        except Exception as exc:
+            self.logger.warning(f"BERA_VOL_API fetch failed: {exc}")
+            return None
 
     async def _delta_target_update_loop(self) -> None:
-        """Background loop to update target inventory from delta service with safeguards."""
+        """Background loop to update target inventory from delta service or BERA_VOL_API with safeguards."""
         while self.running:
             try:
-                if not self.strategy_config or self.strategy_config.target_inventory_source != "delta_calc":
+                if not self.strategy_config:
+                    await asyncio.sleep(1.0)
+                    continue
+                    
+                # Only run if using delta_calc or bera_vol_api
+                if self.strategy_config.target_inventory_source not in ("delta_calc", "bera_vol_api"):
                     await asyncio.sleep(1.0)
                     continue
 
