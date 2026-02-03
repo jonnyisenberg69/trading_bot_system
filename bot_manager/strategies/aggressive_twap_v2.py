@@ -163,20 +163,12 @@ class AggressiveTwapV2Strategy(BaseStrategy):
         self.cooldown_period_seconds = int(self.config['cooldown_period_seconds'])
         self.base_coin = self.config.get('base_coin', "")
         
-        self.intervals_config = self.config.get('intervals', [])
-        if not self.intervals_config or not isinstance(self.intervals_config, list):
-            raise ValueError("Intervals configuration must be a non-empty list")
+        # Note: intervals_config and interval_duration are properly initialized in _validate_config
+        # after the config dict is fully parsed. Setting placeholder values here.
+        self.intervals_config = []
+        self.interval_duration = None
+        self.configured_start_time = None
         
-        if self.granularity_unit == GranularityUnit.SECONDS:
-            self.interval_duration = timedelta(seconds=self.granularity_value)
-        elif self.granularity_unit == GranularityUnit.MINUTES:
-            self.interval_duration = timedelta(minutes=self.granularity_value)
-        else:
-            self.interval_duration = timedelta(hours=self.granularity_value)
-
-        start_time_str = self.config.get('start_time')
-        self.configured_start_time = self._parse_start_time(start_time_str)
-
         # Interval generation has been moved to _start_strategy to ensure all components are initialized.
         
     async def _validate_config(self) -> None:
@@ -1192,6 +1184,8 @@ class AggressiveTwapV2Strategy(BaseStrategy):
         if order_tasks:
             self.logger.info(f"⚡ EXECUTING {len(order_tasks)} ORDERS FOR {description.upper()}...")
             await asyncio.gather(*order_tasks, return_exceptions=True)
+            # Update last_order_time for local cooldown tracking
+            self.last_order_time = datetime.now(timezone.utc)
             await self._signal_strategy_cooldown()
             await self._publish_sub_interval_target_price()
             return True

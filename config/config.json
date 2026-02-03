@@ -3,18 +3,8 @@
         {
             "name": "binance",
             "type": "spot",
-            "api_key": "mcdiHnZKQbbq6yhTjp4rR93oA1rK1KQYqm4gjajwSojoJWdShU1R9L8mYrZWpkkX",
-            "api_secret": "ttwjMWgpNtzOC3gMBbhsMlF6JbHvqgiiwtVqd1TqBy8akExCnptpHm0Kg1C9yhEp",
-            "testnet": false,
-            "wallet_address": "",
-            "private_key": "",
-            "passphrase": ""
-        },
-        {
-            "name": "binance",
-            "type": "perp",
-            "api_key": "zeA9rKP1EQCLr7SkUHJiIkIpOp7KlE40XYG1R36zx0XmN87BUtO6oLHHKGaxXfYS",
-            "api_secret": "BV54UHT9gOEe5fFYjAkaHwPixuCXi0mpZiGbBhVOAmJEHXxEKIyWx10qXSL3onv5",
+            "api_key": "lh4pYYEyQDZyI16nEHauJqo0KSipvuqC1I0jx2kFQ0jyxDmWzbc2WShr85n6TZlI",
+            "api_secret": "Y1yd5PfiworFo4nB7A8GHxcXVQkj6pVdlyMt0tRkc8rI3R26HPr7Q9KgqSroBvcz",
             "testnet": false,
             "wallet_address": "",
             "private_key": "",
@@ -23,38 +13,28 @@
         {
             "name": "bybit",
             "type": "spot",
-            "api_key": "I1AS8daXDozAiv4zJ5",
-            "api_secret": "10kfpJChihGkFAxzTLgInzYkzm7zz9Q8iyNv",
+            "api_key": "mDxsCAwRe5nGlhtPDI",
+            "api_secret": "KBJDe3YWlhULH3nYzSo9Md7Io0qBkCJXVYLf",
             "testnet": false,
             "wallet_address": "",
             "private_key": "",
             "passphrase": ""
         },
         {
-            "name": "bybit",
-            "type": "perp",
-            "api_key": "ZBxruH0Als3Dif01IU",
-            "api_secret": "xLR07099AfnFhDgkTJukE9P7rycsRK2akO32",
+            "name": "kucoin",
+            "type": "spot",
+            "api_key": "69814a9676a75f0001f489e6",
+            "api_secret": "be2a50be-be21-4dc9-b0e8-beaf057968ff",
             "testnet": false,
             "wallet_address": "",
             "private_key": "",
-            "passphrase": ""
-        },
-        {
-            "name": "hyperliquid",
-            "type": "perp",
-            "api_key": "0x4907a83f55e7e20fc1f5444a55cbe7ec1a2159a0",
-            "api_secret": "f54289ac73f44b13f2fb7b105df4a20b7c921196673965cb54088011135aee07",
-            "testnet": false,
-            "wallet_address": "0x09AC8469B1d99fFF81E3EaDeE03DB8C251fE94De",
-            "private_key": "f54289ac73f44b13f2fb7b105df4a20b7c921196673965cb54088011135aee07",
-            "passphrase": ""
+            "passphrase": "Kucoin123"
         },
         {
             "name": "mexc",
             "type": "spot",
-            "api_key": "mx0vglirnOU5nGgACu",
-            "api_secret": "3a6c6058a86c4816bb8149e77863f441",
+            "api_key": "mx0vgli1uvupxk3LWE",
+            "api_secret": "20eebe052d094c3eb3083ba8d3dee0ce",
             "testnet": false,
             "wallet_address": "",
             "private_key": "",
@@ -63,8 +43,8 @@
         {
             "name": "gateio",
             "type": "spot",
-            "api_key": "8c12b0c10c26dddf6a55c5d7e8b1f415",
-            "api_secret": "5fc5ebca602f6ff4f74a289d175cd09c1172cc70e25970a0be96c702f8b8028a",
+            "api_key": "295433222c76908a7e1146222b2653c8",
+            "api_secret": "9a4a32131b354a70e67287babc7f63e7ab164ac0f031a64b3fc16df30cbace0a",
             "testnet": false,
             "wallet_address": "",
             "private_key": "",
@@ -73,12 +53,12 @@
         {
             "name": "bitget",
             "type": "spot",
-            "api_key": "bg_7b916796577de4a1df04c62364b89e03",
-            "api_secret": "857b78b09e1903ad132a552b5e390e47b8fc12c88f2f2b2cd7231f79b8ddcfae",
+            "api_key": "bg_4eb9c21cfaf319fd9b651d4e980cb40a",
+            "api_secret": "56d207682f56449a026b517f1a2c2454dceb3efac7cebae7ea4c6116495ac8b8",
             "testnet": false,
             "wallet_address": "",
             "private_key": "",
-            "passphrase": "password"
+            "passphrase": "Bitget123"
         }
     ],
     "database": {

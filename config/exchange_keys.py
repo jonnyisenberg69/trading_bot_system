@@ -8,61 +8,46 @@ In production, these should be stored in environment variables or secure key man
 # Exchange API configurations
 EXCHANGE_CONFIGS = {
     'binance_spot': {
-        'api_key': 'mcdiHnZKQbbq6yhTjp4rR93oA1rK1KQYqm4gjajwSojoJWdShU1R9L8mYrZWpkkX',
-        'secret': 'ttwjMWgpNtzOC3gMBbhsMlF6JbHvqgiiwtVqd1TqBy8akExCnptpHm0Kg1C9yhEp',
+        'api_key': 'lh4pYYEyQDZyI16nEHauJqo0KSipvuqC1I0jx2kFQ0jyxDmWzbc2WShr85n6TZlI',
+        'secret': 'Y1yd5PfiworFo4nB7A8GHxcXVQkj6pVdlyMt0tRkc8rI3R26HPr7Q9KgqSroBvcz',
         'market_type': 'spot',
-        'sandbox': False
-    },
-    
-    'binance_perp': {
-        'api_key': 'zeA9rKP1EQCLr7SkUHJiIkIpOp7KlE40XYG1R36zx0XmN87BUtO6oLHHKGaxXfYS',
-        'secret': 'BV54UHT9gOEe5fFYjAkaHwPixuCXi0mpZiGbBhVOAmJEHXxEKIyWx10qXSL3onv5',
-        'market_type': 'future',
         'sandbox': False
     },
     
     'bybit_spot': {
-        'api_key': 'I1AS8daXDozAiv4zJ5',
-        'secret': '10kfpJChihGkFAxzTLgInzYkzm7zz9Q8iyNv',
+        'api_key': 'mDxsCAwRe5nGlhtPDI',
+        'secret': 'KBJDe3YWlhULH3nYzSo9Md7Io0qBkCJXVYLf',
         'market_type': 'spot',
         'sandbox': False
     },
     
-    'bybit_perp': {
-        'api_key': 'ZBxruH0Als3Dif01IU',
-        'secret': 'xLR07099AfnFhDgkTJukE9P7rycsRK2akO32',
-        'market_type': 'linear',
+    'kucoin_spot': {
+        'api_key': '69814a9676a75f0001f489e6',
+        'secret': 'be2a50be-be21-4dc9-b0e8-beaf057968ff',
+        'passphrase': 'Kucoin123',
+        'market_type': 'spot',
         'sandbox': False
     },
     
     'mexc_spot': {
-        'api_key': 'mx0vglirnOU5nGgACu',
-        'secret': '3a6c6058a86c4816bb8149e77863f441',
+        'api_key': 'mx0vgli1uvupxk3LWE',
+        'secret': '20eebe052d094c3eb3083ba8d3dee0ce',
         'market_type': 'spot',
         'sandbox': False
     },
     
     'gateio_spot': {
-        'api_key': '8c12b0c10c26dddf6a55c5d7e8b1f415',
-        'secret': '5fc5ebca602f6ff4f74a289d175cd09c1172cc70e25970a0be96c702f8b8028a',
+        'api_key': '295433222c76908a7e1146222b2653c8',
+        'secret': '9a4a32131b354a70e67287babc7f63e7ab164ac0f031a64b3fc16df30cbace0a',
         'market_type': 'spot',
         'sandbox': False
     },
     
     'bitget_spot': {
-        'api_key': 'bg_7b916796577de4a1df04c62364b89e03',
-        'secret': '857b78b09e1903ad132a552b5e390e47b8fc12c88f2f2b2cd7231f79b8ddcfae',
-        'passphrase': 'password',
+        'api_key': 'bg_4eb9c21cfaf319fd9b651d4e980cb40a',
+        'secret': '56d207682f56449a026b517f1a2c2454dceb3efac7cebae7ea4c6116495ac8b8',
+        'passphrase': 'Bitget123',
         'market_type': 'spot',
-        'sandbox': False
-    },
-    
-    'hyperliquid_perp': {
-        'wallet_address': '0x59a7eC7a658777225F7123B2c8420b6D5EC9D64d',
-        'private_key': '837d255237050164809436a1202068ed71c4f1fc32814d4942d522c249f16042',
-        'secret': '837d255237050164809436a1202068ed71c4f1fc32814d4942d522c249f16042',
-        'api_key': '0x59a7eC7a658777225F7123B2c8420b6D5EC9D64d',
-        'market_type': 'perp',
         'sandbox': False
     }
 }
@@ -85,4 +70,4 @@ def get_all_exchange_configs() -> dict:
 
 def get_available_exchanges() -> list:
     """Get list of available exchange names."""
-    return list(EXCHANGE_CONFIGS.keys()) 
+    return list(EXCHANGE_CONFIGS.keys())
