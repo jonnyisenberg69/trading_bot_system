@@ -579,14 +579,15 @@ class VolumeWeightedTopOfBookStrategy(BaseStrategy):
         """
         base_url = self.bera_vol_api_url.rstrip('/')
         
-        # Build URL with optional strike price
-        params = {}
+        # Build URL with required time_start parameter (use 24h lookback for OTC metrics)
+        now = datetime.now(timezone.utc)
+        time_start = (now - timedelta(hours=24)).strftime("%Y-%m-%dT%H:%M:%S")
+        
+        params = {'time_start': time_start}
         if self.option_strike_price:
             params['strike'] = str(self.option_strike_price)
         
-        url = f"{base_url}/otc/pricing"
-        if params:
-            url += "?" + "&".join(f"{k}={v}" for k, v in params.items())
+        url = f"{base_url}/otc/pricing?" + "&".join(f"{k}={v}" for k, v in params.items())
         
         try:
             timeout = aiohttp.ClientTimeout(total=5)
